@@ -1,0 +1,184 @@
+{
+  "AIXAGON": {
+    "type_recurrence": "MENSUELLE",
+    "frequence_annuelle": 12,
+    "intervalle_moyen_jours": 5.3,
+    "montant_recurrent": 750.0,
+    "regularite": "RÉGULIER",
+    "nb_factures_total": 78,
+    "derniere_facture": {
+      "date": "2025-06-16",
+      "montant": 750.0
+    },
+    "prochaine_prevue": "2025-06-21",
+    "ca_annuel_estime": 9000.0
+  },
+  "ANONE": {
+    "type_recurrence": "ANNUELLE",
+    "frequence_annuelle": 1,
+    "intervalle_moyen_jours": 335.0,
+    "montant_recurrent": 500.0,
+    "regularite": "INDÉTERMINÉ",
+    "nb_factures_total": 4,
+    "derniere_facture": {
+      "date": "2025-01-20",
+      "montant": 500.0
+    },
+    "prochaine_prevue": "2025-12-21",
+    "ca_annuel_estime": 500.0
+  },
+  "AXION": {
+    "type_recurrence": "SEMESTRIELLE",
+    "frequence_annuelle": 2,
+    "intervalle_moyen_jours": 99.0,
+    "montant_recurrent": 700.0,
+    "regularite": "VARIABLE",
+    "nb_factures_total": 8,
+    "derniere_facture": {
+      "date": "2025-07-34",
+      "montant": 700.0
+    },
+    "prochaine_prevue": "2025-10-20",
+    "ca_annuel_estime": 1400.0
+  },
+  "BUQUET": {
+    "type_recurrence": "MENSUELLE",
+    "frequence_annuelle": 12,
+    "intervalle_moyen_jours": 18.9,
+    "montant_recurrent": 2000.0,
+    "regularite": "RÉGULIER",
+    "nb_factures_total": 40,
+    "derniere_facture": {
+      "date": "2025-07-45",
+      "montant": 2000.0
+    },
+    "prochaine_prevue": "2025-07-31",
+    "ca_annuel_estime": 24000.0
+  },
+  "FARBOS": {
+    "type_recurrence": "ANNUELLE",
+    "frequence_annuelle": 1,
+    "intervalle_moyen_jours": 362.0,
+    "montant_recurrent": 150.0,
+    "regularite": "INDÉTERMINÉ",
+    "nb_factures_total": 5,
+    "derniere_facture": {
+      "date": "2025-07-36",
+      "montant": 150.0
+    },
+    "prochaine_prevue": "2026-07-10",
+    "ca_annuel_estime": 150.0
+  },
+  "GUERBET": {
+    "type_recurrence": "TRIMESTRIELLE",
+    "frequence_annuelle": 4,
+    "intervalle_moyen_jours": 82.3,
+    "montant_recurrent": 3000.0,
+    "regularite": "VARIABLE",
+    "nb_factures_total": 7,
+    "derniere_facture": {
+      "date": "2025-07-21",
+      "montant": 3000.0
+    },
+    "prochaine_prevue": "2025-10-11",
+    "ca_annuel_estime": 12000.0
+  },
+  "LAA": {
+    "type_recurrence": "MENSUELLE",
+    "frequence_annuelle": 12,
+    "intervalle_moyen_jours": 4.5,
+    "montant_recurrent": 1562.5,
+    "regularite": "TRÈS RÉGULIER",
+    "nb_factures_total": 1306,
+    "derniere_facture": {
+      "date": "2025-07-46",
+      "montant": 1562.5
+    },
+    "prochaine_prevue": "2025-07-17",
+    "ca_annuel_estime": 18750.0
+  },
+  "LEFEBVRE": {
+    "type_recurrence": "BIMESTRIELLE",
+    "frequence_annuelle": 6,
+    "intervalle_moyen_jours": 55.2,
+    "montant_recurrent": 480.0,
+    "regularite": "VARIABLE",
+    "nb_factures_total": 14,
+    "derniere_facture": {
+      "date": "2025-07-37",
+      "montant": 480.0
+    },
+    "prochaine_prevue": "2025-09-06",
+    "ca_annuel_estime": 2880.0
+  },
+  "PETRAS": {
+    "type_recurrence": "MENSUELLE",
+    "frequence_annuelle": 12,
+    "intervalle_moyen_jours": 22.0,
+    "montant_recurrent": 200.0,
+    "regularite": "VARIABLE",
+    "nb_factures_total": 39,
+    "derniere_facture": {
+      "date": "2025-07-38",
+      "montant": 200.0
+    },
+    "prochaine_prevue": "2025-08-04",
+    "ca_annuel_estime": 2400.0
+  },
+  "PHARMABEST": {
+    "type_recurrence": "MENSUELLE",
+    "frequence_annuelle": 12,
+    "intervalle_moyen_jours": 9.8,
+    "montant_recurrent": 2500.0,
+    "regularite": "RÉGULIER",
+    "nb_factures_total": 112,
+    "derniere_facture": {
+      "date": "2025-07-47",
+      "montant": 2500.0
+    },
+    "prochaine_prevue": "2025-07-22",
+    "ca_annuel_estime": 30000.0
+  },
+  "PROVENCALE": {
+    "type_recurrence": "MENSUELLE",
+    "frequence_annuelle": 12,
+    "intervalle_moyen_jours": 21.9,
+    "montant_recurrent": 5000.0,
+    "regularite": "RÉGULIER",
+    "nb_factures_total": 42,
+    "derniere_facture": {
+      "date": "2025-07-28",
+      "montant": 5000.0
+    },
+    "prochaine_prevue": "2025-08-18",
+    "ca_annuel_estime": 60000.0
+  },
+  "SEMARDEL": {
+    "type_recurrence": "MENSUELLE",
+    "frequence_annuelle": 12,
+    "intervalle_moyen_jours": 24.2,
+    "montant_recurrent": 500.0,
+    "regularite": "VARIABLE",
+    "nb_factures_total": 8,
+    "derniere_facture": {
+      "date": "2025-05-25",
+      "montant": 500.0
+    },
+    "prochaine_prevue": "2025-06-18",
+    "ca_annuel_estime": 6000.0
+  },
+  "TOUZEAU": {
+    "type_recurrence": "SEMESTRIELLE",
+    "frequence_annuelle": 2,
+    "intervalle_moyen_jours": 157.0,
+    "montant_recurrent": 150.0,
+    "regularite": "VARIABLE",
+    "nb_factures_total": 6,
+    "derniere_facture": {
+      "date": "2025-07-44",
+      "montant": 150.0
+    },
+    "prochaine_prevue": "2025-12-17",
+    "ca_annuel_estime": 300.0
+  }
+}

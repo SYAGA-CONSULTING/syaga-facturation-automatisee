@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎯 FACTURES DÉFINITIVES À CRÉER - Juillet/Août 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .header .subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        .stat-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .stat-card .value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+        .stat-card .label {
+            color: #666;
+            font-size: 0.9em;
+            text-transform: uppercase;
+        }
+        .section {
+            padding: 25px;
+        }
+        .section h2 {
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        th {
+            background: #667eea;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: bold;
+        }
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        tr:hover {
+            background: #f5f5ff;
+        }
+        .numero {
+            font-weight: bold;
+            color: #667eea;
+            font-family: monospace;
+            font-size: 1.1em;
+        }
+        .client {
+            font-weight: bold;
+            color: #333;
+        }
+        .montant {
+            font-weight: bold;
+            color: #28a745;
+            text-align: right;
+            font-size: 1.1em;
+        }
+        .total-row {
+            background: #e8f5e9;
+            font-weight: bold;
+            border-top: 2px solid #28a745;
+        }
+        .total-row td {
+            padding: 15px 12px;
+            font-size: 1.1em;
+        }
+        .alert {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 6px;
+            padding: 15px;
+            margin: 20px;
+            color: #856404;
+        }
+        .alert strong {
+            color: #ff6b6b;
+        }
+        .success-box {
+            background: #d4edda;
+            border: 1px solid #28a745;
+            border-radius: 6px;
+            padding: 15px;
+            margin: 20px;
+            color: #155724;
+            font-weight: bold;
+        }
+        .action-buttons {
+            text-align: center;
+            padding: 30px;
+            background: #f8f9fa;
+        }
+        .btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 6px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 0 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+        }
+        .btn:hover {
+            background: #218838;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+        .btn-secondary {
+            background: #6c757d;
+        }
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+        .source-tag {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: bold;
+        }
+        .clockify {
+            background: #e3f2fd;
+            color: #1976d2;
+        }
+        .manuel {
+            background: #fce4ec;
+            color: #c2185b;
+        }
+        .forfait {
+            background: #e8f5e9;
+            color: #388e3c;
+        }
+        @media print {
+            body {
+                background: white;
+            }
+            .btn {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>🎯 FACTURES DÉFINITIVES À CRÉER</h1>
+            <div class="subtitle">24 Factures - Juillet (fin de mois) + Août (récurrentes)</div>
+            <div class="subtitle">Données consolidées Excel + Email</div>
+        </div>
+
+        <!-- Statistics -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="value">24</div>
+                <div class="label">Total Factures</div>
+            </div>
+            <div class="stat-card">
+                <div class="value">16</div>
+                <div class="label">Factures Juillet</div>
+            </div>
+            <div class="stat-card">
+                <div class="value">8</div>
+                <div class="label">Factures Août</div>
+            </div>
+            <div class="stat-card">
+                <div class="value">19 760€</div>
+                <div class="label">Total HT</div>
+            </div>
+            <div class="stat-card">
+                <div class="value">23 712€</div>
+                <div class="label">Total TTC</div>
+            </div>
+        </div>
+
+        <!-- Alert -->
+        <div class="alert">
+            ⚠️ <strong>IMPORTANT :</strong> Ces 24 factures sont issues de la consolidation Excel + vos instructions. 
+            Les 16 factures juillet sont celles sans date d'envoi dans l'Excel (Clockify + manuelles).
+        </div>
+
+        <!-- Section Juillet -->
+        <div class="section">
+            <h2>📅 FACTURES JUILLET 2025 - À CRÉER (16 factures)</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th width="120">N° Facture</th>
+                        <th width="200">Client</th>
+                        <th width="80">Source</th>
+                        <th>Désignation</th>
+                        <th width="80">Quantité</th>
+                        <th width="100">Total HT</th>
+                        <th width="100">Total TTC</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- LAA Group - 5 factures -->
+                    <tr>
+                        <td class="numero">F20250764</td>
+                        <td class="client">LAA</td>
+                        <td><span class="source-tag manuel">MANUEL</span></td>
+                        <td>Dette technologique - Migration infrastructure<br>Prestations juillet 2025</td>
+                        <td>27h</td>
+                        <td class="montant">2 700€</td>
+                        <td class="montant">3 240€</td>
+                    </tr>
+                    <tr>
+                        <td class="numero">F20250765</td>
+                        <td class="client">LAA</td>
+                        <td><span class="source-tag manuel">MANUEL</span></td>
+                        <td>Tests infrastructure - Validation environnements<br>Prestations juillet 2025</td>
+                        <td>21.5h</td>
+                        <td class="montant">2 150€</td>
+                        <td class="montant">2 580€</td>
+                    </tr>
+                    <tr>
+                        <td class="numero">F20250766</td>
+                        <td class="client">LAA</td>
+                        <td><span class="source-tag manuel">MANUEL</span></td>
+                        <td>Développements ponctuels<br>Prestations juillet 2025</td>
+                        <td>9h</td>
+                        <td class="montant">900€</td>
+                        <td class="montant">1 080€</td>
+                    </tr>
+                    <tr>
+                        <td class="numero">F20250767</td>
+                        <td class="client">LAA</td>
+                        <td><span class="source-tag clockify">CLOCKIFY</span></td>
+                        <td>Prestations hors-forfait<br>Support et maintenance juillet 2025</td>
+                        <td>5h</td>
+                        <td class="montant">500€</td>
+                        <td class="montant">600€</td>
+                    </tr>
+                    <tr>
+                        <td class="numero">F20250768</td>
+                        <td class="client">LAA MAROC</td>
+                        <td><span class="source-tag clockify">CLOCKIFY</span></td>
+                        <td>Prestations hors-forfait<br>Support à distance juillet 2025</td>
+                        <td>1.5h</td>
+                        <td class="montant">150€</td>
+                        <td class="montant">180€</td>
+                    </tr>
+                    
+                    <!-- UAI - 2 factures -->
+                    <tr>
+                        <td class="numero">F20250769</td>
+                        <td class="client">UN AIR D'ICI</td>
+                        <td><span class="source-tag manuel">MANUEL</span></td>
+                        <td>HardenAD - Durcissement Active Directory<br>Sessions 17/07 et 31/07</td>
+                        <td>9h</td>
+                        <td class="montant">900€</td>
+                        <td class="montant">1 080€</td>
+                    </tr>
+                    <tr>
+                        <td class="numero">F20250770</td>
+                        <td class="client">UN AIR D'ICI</td>
+                        <td><span class="source-tag manuel">MANUEL</span></td>
+                        <td>Debug Fragmentation indexes SQL Server<br>Optimisation performances - 5 jours</td>
+                        <td>5j</td>
+                        <td class="montant">4 250€</td>
+                        <td class="montant">5 100€</td>
+                    </tr>
+                    
+                    <!-- Autres clients -->
+                    <tr>
+                        <td class="numero">F20250771</td>
+                        <td class="client">QUADRIMEX</td>
+                        <td><span class="source-tag manuel">MANUEL</span></td>
+                        <td>Stabilisation Automate Quad<br>Développements et corrections juillet 2025</td>
+                        <td>15h</td>
+                        <td class="montant">1 500€</td>
+                        <td class="montant">1 800€</td>
+                    </tr>
+                    <tr>
+                        <td class="numero">F20250772</td>
+                        <td class="client">AXION</td>
+                        <td><span class="source-tag clockify">CLOCKIFY</span></td>
+                        <td>Prestations hors-forfait<br>Support infrastructure juillet 2025</td>
+                        <td>7h</td>
+                        <td class="montant">700€</td>
+                        <td class="montant">840€</td>
+                    </tr>
+                    <tr>
+                        <td class="numero">F20250773</td>
+                        <td class="client">FARSY</td>
+                        <td><span class="source-tag manuel">MANUEL</span></td>
+                        <td>Prestation récurrente HardenAD via AIXAGON<br>Session du 21/07/2025</td>
+                        <td>0.5j</td>
+                        <td class="montant">400€</td>
+                        <td class="montant">480€</td>
+                    </tr>
+                    <tr>
+                        <td class="numero">F20250774</td>
+                        <td class="client">PORT DE BOUC</td>
+                        <td><span class="source-tag manuel">MANUEL</span></td>
+                        <td>HardenAD - Durcissement sécurité<br>Demi-journée du 22/07/2025</td>
+                        <td>0.5j</td>
+                        <td class="montant">400€</td>
+                        <td class="montant">480€</td>
+                    </tr>
+                    <tr>
+                        <td class="numero">F20250775</td>
+                        <td class="client">LEFEBVRE</td>
+                        <td><span class="source-tag clockify">CLOCKIFY</span></td>
+                        <td>Prestations hors-forfait<br>Support cabinet juillet 2025</td>
+                        <td>3.6h</td>
+                        <td class="montant">360€</td>
+                        <td class="montant">432€</td>
+                    </tr>
+                    <tr>
+                        <td class="numero">F20250776</td>
+                        <td class="client">PETRAS</td>
+                        <td><span class="source-tag clockify">CLOCKIFY</span></td>
+                        <td>Prestations hors-forfait<br>Support juillet 2025</td>
+                        <td>2h</td>
+                        <td class="montant">200€</td>
+                        <td class="montant">240€</td>
+                    </tr>
+                    <tr>
+                        <td class="numero">F20250777</td>
+                        <td class="client">ART INFO</td>
+                        <td><span class="source-tag clockify">CLOCKIFY</span></td>
+                        <td>Prestations hors-forfait<br>Support technique juillet 2025</td>
+                        <td>2h</td>
+                        <td class="montant">200€</td>
+                        <td class="montant">240€</td>
+                    </tr>
+                    <tr>
+                        <td class="numero">F20250778</td>
+                        <td class="client">TOUZEAU</td>
+                        <td><span class="source-tag clockify">CLOCKIFY</span></td>
+                        <td>Prestations hors-forfait<br>Support garage juillet 2025</td>
+                        <td>1.5h</td>
+                        <td class="montant">150€</td>
+                        <td class="montant">180€</td>
+                    </tr>
+                    <tr>
+                        <td class="numero">F20250779</td>
+                        <td class="client">FARBOS</td>
+                        <td><span class="source-tag clockify">CLOCKIFY</span></td>
+                        <td>Prestations hors-forfait<br>Maintenance juillet 2025</td>
+                        <td>1.5h</td>
+                        <td class="montant">150€</td>
+                        <td class="montant">180€</td>
+                    </tr>
+                    
+                    <tr class="total-row">
+                        <td colspan="5"><strong>TOTAL JUILLET (16 factures)</strong></td>
+                        <td class="montant"><strong>15 610€</strong></td>
+                        <td class="montant"><strong>18 732€</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Section Août -->
+        <div class="section">
+            <h2>🔄 FACTURES AOÛT 2025 - RÉCURRENTES (8 factures)</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th width="120">N° Facture</th>
+                        <th width="200">Client</th>
+                        <th width="80">Type</th>
+                        <th>Désignation</th>
+                        <th width="100">Total HT</th>
+                        <th width="100">Total TTC</th>
+                        <th width="100">Échéance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="numero">F20250780</td>
+                        <td class="client">LAA</td>
+                        <td><span class="source-tag forfait">FORFAIT</span></td>
+                        <td>Forfait maintenance mensuel LAA - Août 2025</td>
+                        <td class="montant">1 400€</td>
+                        <td class="montant">1 680€</td>
+                        <td>31/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td class="numero">F20250781</td>
+                        <td class="client">PETRAS</td>
+                        <td><span class="source-tag forfait">FORFAIT</span></td>
+                        <td>Forfait maintenance mensuel Petras - Août 2025</td>
+                        <td class="montant">600€</td>
+                        <td class="montant">720€</td>
+                        <td>31/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td class="numero">F20250782</td>
+                        <td class="client">PHARMABEST</td>
+                        <td><span class="source-tag forfait">FORFAIT</span></td>
+                        <td>Forfait maintenance mensuel Pharmabest - Août 2025</td>
+                        <td class="montant">500€</td>
+                        <td class="montant">600€</td>
+                        <td>31/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td class="numero">F20250783</td>
+                        <td class="client">BUQUET</td>
+                        <td><span class="source-tag forfait">FORFAIT</span></td>
+                        <td>Forfait maintenance mensuel Buquet - Août 2025</td>
+                        <td class="montant">500€</td>
+                        <td class="montant">600€</td>
+                        <td>31/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td class="numero">F20250784</td>
+                        <td class="client">SEXTANT</td>
+                        <td><span class="source-tag forfait">FORFAIT</span></td>
+                        <td>Forfait conseil mensuel Sextant - Août 2025</td>
+                        <td class="montant">400€</td>
+                        <td class="montant">480€</td>
+                        <td>31/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td class="numero">F20250785</td>
+                        <td class="client">PROVENÇALE</td>
+                        <td><span class="source-tag forfait">FORFAIT</span></td>
+                        <td>Forfait maintenance mensuel Provençale - Août 2025</td>
+                        <td class="montant">400€</td>
+                        <td class="montant">480€</td>
+                        <td>31/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td class="numero">F20250786</td>
+                        <td class="client">QUADRIMEX</td>
+                        <td><span class="source-tag forfait">FORFAIT</span></td>
+                        <td>Forfait support mensuel Quadrimex - Août 2025</td>
+                        <td class="montant">250€</td>
+                        <td class="montant">300€</td>
+                        <td>31/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td class="numero">F20250787</td>
+                        <td class="client">GENLOG</td>
+                        <td><span class="source-tag forfait">FORFAIT</span></td>
+                        <td>Forfait maintenance mensuel Genlog - Août 2025</td>
+                        <td class="montant">100€</td>
+                        <td class="montant">120€</td>
+                        <td>31/08/2025</td>
+                    </tr>
+                    
+                    <tr class="total-row">
+                        <td colspan="4"><strong>TOTAL AOÛT (8 factures)</strong></td>
+                        <td class="montant"><strong>4 150€</strong></td>
+                        <td class="montant"><strong>4 980€</strong></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Total général -->
+        <div class="section">
+            <table>
+                <tbody>
+                    <tr class="total-row" style="font-size: 1.3em; background: #e3f2fd;">
+                        <td colspan="4"><strong>🎯 TOTAL GÉNÉRAL À FACTURER</strong></td>
+                        <td class="montant"><strong>19 760€ HT</strong></td>
+                        <td class="montant"><strong>23 712€ TTC</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Success Box -->
+        <div class="success-box">
+            ✅ Ces 24 factures représentent l'ensemble des prestations à facturer :
+            <ul style="margin-top: 10px; margin-left: 20px;">
+                <li>16 factures juillet (fin de mois) issues de l'Excel sans date d'envoi</li>
+                <li>8 factures août (début de mois) récurrentes confirmées</li>
+                <li>Sources : Clockify (temps trackés) + Prestations manuelles (projets spécifiques)</li>
+            </ul>
+        </div>
+
+        <!-- Actions -->
+        <div class="action-buttons">
+            <button class="btn" onclick="alert('Export XML en cours de génération...')">
+                📤 EXPORTER VERS OXYGEN
+            </button>
+            <button class="btn btn-secondary" onclick="window.print()">
+                🖨️ IMPRIMER
+            </button>
+        </div>
+
+        <!-- Footer -->
+        <div style="background: #f8f9fa; padding: 20px; text-align: center; color: #666;">
+            <p><strong>📅 Date de génération :</strong> 12/08/2025</p>
+            <p><strong>📊 Source :</strong> Consolidation Excel (lignes sans date d'envoi) + Forfaits récurrents août</p>
+            <p><strong>🔢 Numérotation :</strong> F20250764 à F20250787 (24 factures)</p>
+        </div>
+    </div>
+</body>
+</html>

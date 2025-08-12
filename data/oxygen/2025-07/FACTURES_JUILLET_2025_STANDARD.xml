@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSet xmlns="http://tempuri.org/">
+    <NewDataSet xmlns="http://tempuri.org/data.xsd">
+        <PIECE>
+            <CLIENT_CODE>LAA01</CLIENT_CODE>
+            <TYPE>F</TYPE>
+            <WEB_ID>#1000</WEB_ID>
+            <DESIG>Prestations informatiques - Juillet 2025</DESIG>
+            <DATE_CREATION>31/07/2025</DATE_CREATION>
+            <DATE_LIVRAISON>31/07/2025</DATE_LIVRAISON>
+            <TAUX_REMISE>0,00</TAUX_REMISE>
+            <TAUX_ESCOMPTE>0,00</TAUX_ESCOMPTE>
+            <GCPREG_CODE>VIR</GCPREG_CODE>
+            <PORT_HT>0,00</PORT_HT>
+            <FRAIS_HT>0,00</FRAIS_HT>
+            <ECOTAXE>0</ECOTAXE>
+            <NBRE_JOURS>30</NBRE_JOURS>
+            <DECALAGE>0</DECALAGE>
+            <MONNAIE>EUR</MONNAIE>
+            <VALID>1</VALID>
+            <ARRETE>F</ARRETE>
+            <adresse>
+                <STYPE>facturation</STYPE>
+                <NOM>Les Artisans de l'Automobile</NOM>
+                <ADRESSE>Zone Industrielle Nord</ADRESSE>
+                <CP>13100</CP>
+                <VILLE>AIX-EN-PROVENCE</VILLE>
+                <PAYS>France</PAYS>
+                <TEL>0442123456</TEL>
+                <EMAIL>compta@laa.fr</EMAIL>
+            </adresse>
+            <adresse>
+                <STYPE>livraison</STYPE>
+                <NOM>Les Artisans de l'Automobile</NOM>
+                <ADRESSE>Zone Industrielle Nord</ADRESSE>
+                <CP>13100</CP>
+                <VILLE>AIX-EN-PROVENCE</VILLE>
+                <PAYS>France</PAYS>
+            </adresse>
+            <LIGNE>
+                <NUMERO>1</NUMERO>
+                <ARTICLE_WEB_CODE>PRES-INFO</ARTICLE_WEB_CODE>
+                <DESIG>Prestations informatiques - Juillet 2025</DESIG>
+                <QTE>27,00</QTE>
+                <PUHT>100,00</PUHT>
+                <TAUX_REMISE>0,00</TAUX_REMISE>
+                <GCPTVA_CODE>NORM</GCPTVA_CODE>
+            </LIGNE>
+        </PIECE>
+        <PIECE>
+            <CLIENT_CODE>LAA01</CLIENT_CODE>
+            <TYPE>F</TYPE>
+            <WEB_ID>#1001</WEB_ID>
+            <DESIG>Prestations informatiques - Juillet 2025</DESIG>
+            <DATE_CREATION>31/07/2025</DATE_CREATION>
+            <DATE_LIVRAISON>31/07/2025</DATE_LIVRAISON>
+            <TAUX_REMISE>0,00</TAUX_REMISE>
+            <TAUX_ESCOMPTE>0,00</TAUX_ESCOMPTE>
+            <GCPREG_CODE>VIR</GCPREG_CODE>
+            <PORT_HT>0,00</PORT_HT>
+            <FRAIS_HT>0,00</FRAIS_HT>
+            <ECOTAXE>0</ECOTAXE>
+            <NBRE_JOURS>30</NBRE_JOURS>
+            <DECALAGE>0</DECALAGE>
+            <MONNAIE>EUR</MONNAIE>
+            <VALID>1</VALID>
+            <ARRETE>F</ARRETE>
+            <adresse>
+                <STYPE>facturation</STYPE>
+                <NOM>Les Artisans de l'Automobile</NOM>
+                <ADRESSE>Zone Industrielle Nord</ADRESSE>
+                <CP>13100</CP>
+                <VILLE>AIX-EN-PROVENCE</VILLE>
+                <PAYS>France</PAYS>
+                <TEL>0442123456</TEL>
+                <EMAIL>compta@laa.fr</EMAIL>
+            </adresse>
+            <adresse>
+                <STYPE>livraison</STYPE>
+                <NOM>Les Artisans de l'Automobile</NOM>
+                <ADRESSE>Zone Industrielle Nord</ADRESSE>
+                <CP>13100</CP>
+                <VILLE>AIX-EN-PROVENCE</VILLE>
+                <PAYS>France</PAYS>
+            </adresse>
+            <LIGNE>
+                <NUMERO>1</NUMERO>
+                <ARTICLE_WEB_CODE>PRES-INFO</ARTICLE_WEB_CODE>
+                <DESIG>Prestations informatiques - Juillet 2025</DESIG>
+                <QTE>21,50</QTE>
+                <PUHT>100,00</PUHT>
+                <TAUX_REMISE>0,00</TAUX_REMISE>
+                <GCPTVA_CODE>NORM</GCPTVA_CODE>
+            </LIGNE>
+        </PIECE>
+        <PIECE>
+            <CLIENT_CODE>LAA01</CLIENT_CODE>
+            <TYPE>F</TYPE>
+            <WEB_ID>#1002</WEB_ID>
+            <DESIG>Prestations informatiques - Juillet 2025</DESIG>
+            <DATE_CREATION>31/07/2025</DATE_CREATION>
+            <DATE_LIVRAISON>31/07/2025</DATE_LIVRAISON>
+            <TAUX_REMISE>0,00</TAUX_REMISE>
+            <TAUX_ESCOMPTE>0,00</TAUX_ESCOMPTE>
+            <GCPREG_CODE>VIR</GCPREG_CODE>
+            <PORT_HT>0,00</PORT_HT>
+            <FRAIS_HT>0,00</FRAIS_HT>
+            <ECOTAXE>0</ECOTAXE>
+            <NBRE_JOURS>30</NBRE_JOURS>
+            <DECALAGE>0</DECALAGE>
+            <MONNAIE>EUR</MONNAIE>
+            <VALID>1</VALID>
+            <ARRETE>F</ARRETE>
+            <adresse>
+                <STYPE>facturation</STYPE>
+                <NOM>Les Artisans de l'Automobile</NOM>
+                <ADRESSE>Zone Industrielle Nord</ADRESSE>
+                <CP>13100</CP>
+                <VILLE>AIX-EN-PROVENCE</VILLE>
+                <PAYS>France</PAYS>
+                <TEL>0442123456</TEL>
+                <EMAIL>compta@laa.fr</EMAIL>
+            </adresse>
+            <adresse>
+                <STYPE>livraison</STYPE>
+                <NOM>Les Artisans de l'Automobile</NOM>
+                <ADRESSE>Zone Industrielle Nord</ADRESSE>
+                <CP>13100</CP>
+                <VILLE>AIX-EN-PROVENCE</VILLE>
+                <PAYS>France</PAYS>
+            </adresse>
+            <LIGNE>
+                <NUMERO>1</NUMERO>
+                <ARTICLE_WEB_CODE>PRES-INFO</ARTICLE_WEB_CODE>
+                <DESIG>Prestations informatiques - Juillet 2025</DESIG>
+                <QTE>9,00</QTE>
+                <PUHT>100,00</PUHT>
+                <TAUX_REMISE>0,00</TAUX_REMISE>
+                <GCPTVA_CODE>NORM</GCPTVA_CODE>
+            </LIGNE>
+        </PIECE>
+        <PIECE>
+            <CLIENT_CODE>LAA01</CLIENT_CODE>
+            <TYPE>F</TYPE>
+            <WEB_ID>#1003</WEB_ID>
+            <DESIG>Maintenance informatique - Juillet 2025</DESIG>
+            <DATE_CREATION>31/07/2025</DATE_CREATION>
+            <DATE_LIVRAISON>31/07/2025</DATE_LIVRAISON>
+            <TAUX_REMISE>0,00</TAUX_REMISE>
+            <TAUX_ESCOMPTE>0,00</TAUX_ESCOMPTE>
+            <GCPREG_CODE>VIR</GCPREG_CODE>
+            <PORT_HT>0,00</PORT_HT>
+            <FRAIS_HT>0,00</FRAIS_HT>
+            <ECOTAXE>0</ECOTAXE>
+            <NBRE_JOURS>30</NBRE_JOURS>
+            <DECALAGE>0</DECALAGE>
+            <MONNAIE>EUR</MONNAIE>
+            <VALID>1</VALID>
+            <ARRETE>F</ARRETE>
+            <adresse>
+                <STYPE>facturation</STYPE>
+                <NOM>Les Artisans de l'Automobile</NOM>
+                <ADRESSE>Zone Industrielle Nord</ADRESSE>
+                <CP>13100</CP>
+                <VILLE>AIX-EN-PROVENCE</VILLE>
+                <PAYS>France</PAYS>
+                <TEL>0442123456</TEL>
+                <EMAIL>compta@laa.fr</EMAIL>
+            </adresse>
+            <adresse>
+                <STYPE>livraison</STYPE>
+                <NOM>Les Artisans de l'Automobile</NOM>
+                <ADRESSE>Zone Industrielle Nord</ADRESSE>
+                <CP>13100</CP>
+                <VILLE>AIX-EN-PROVENCE</VILLE>
+                <PAYS>France</PAYS>
+            </adresse>
+            <LIGNE>
+                <NUMERO>1</NUMERO>
+                <ARTICLE_WEB_CODE>PRES-INFO</ARTICLE_WEB_CODE>
+                <DESIG>Maintenance informatique - Juillet 2025</DESIG>
+                <QTE>5,00</QTE>
+                <PUHT>100,00</PUHT>
+                <TAUX_REMISE>0,00</TAUX_REMISE>
+                <GCPTVA_CODE>NORM</GCPTVA_CODE>
+            </LIGNE>
+        </PIECE>
+        <PIECE>
+            <CLIENT_CODE>LAAM01</CLIENT_CODE>
+            <TYPE>F</TYPE>
+            <WEB_ID>#1004</WEB_ID>
+            <DESIG>Maintenance informatique - Juillet 2025</DESIG>
+            <DATE_CREATION>31/07/2025</DATE_CREATION>
+            <DATE_LIVRAISON>31/07/2025</DATE_LIVRAISON>
+            <TAUX_REMISE>0,00</TAUX_REMISE>
+            <TAUX_ESCOMPTE>0,00</TAUX_ESCOMPTE>
+            <GCPREG_CODE>VIR</GCPREG_CODE>
+            <PORT_HT>0,00</PORT_HT>
+            <FRAIS_HT>0,00</FRAIS_HT>
+            <ECOTAXE>0</ECOTAXE>
+            <NBRE_JOURS>45</NBRE_JOURS>
+            <DECALAGE>0</DECALAGE>
+            <MONNAIE>EUR</MONNAIE>
+            <VALID>1</VALID>
+            <ARRETE>F</ARRETE>
+            <adresse>
+                <STYPE>facturation</STYPE>
+                <NOM>LAA MAROC</NOM>
+                <ADRESSE>Zone Industrielle</ADRESSE>
+                <CP>20000</CP>
+                <VILLE>CASABLANCA</VILLE>
+                <PAYS>Maroc</PAYS>
+                <EMAIL>compta@laa.ma</EMAIL>
+            </adresse>
+            <adresse>
+                <STYPE>livraison</STYPE>
+                <NOM>LAA MAROC</NOM>
+                <ADRESSE>Zone Industrielle</ADRESSE>
+                <CP>20000</CP>
+                <VILLE>CASABLANCA</VILLE>
+                <PAYS>Maroc</PAYS>
+            </adresse>
+            <LIGNE>
+                <NUMERO>1</NUMERO>
+                <ARTICLE_WEB_CODE>PRES-INFO</ARTICLE_WEB_CODE>
+                <DESIG>Maintenance informatique - Juillet 2025</DESIG>
+                <QTE>1,50</QTE>
+                <PUHT>100,00</PUHT>
+                <TAUX_REMISE>0,00</TAUX_REMISE>
+                <GCPTVA_CODE>MA</GCPTVA_CODE>
+            </LIGNE>
+        </PIECE>
+        <PIECE>
+            <CLIENT_CODE>1AIR01</CLIENT_CODE>
+            <TYPE>F</TYPE>
+            <WEB_ID>#1005</WEB_ID>
+            <DESIG>Prestations informatiques - Juillet 2025</DESIG>
+            <DATE_CREATION>31/07/2025</DATE_CREATION>
+            <DATE_LIVRAISON>31/07/2025</DATE_LIVRAISON>
+            <TAUX_REMISE>0,00</TAUX_REMISE>
+            <TAUX_ESCOMPTE>0,00</TAUX_ESCOMPTE>
+            <GCPREG_CODE>VIR</GCPREG_CODE>
+            <PORT_HT>0,00</PORT_HT>
+            <FRAIS_HT>0,00</FRAIS_HT>
+            <ECOTAXE>0</ECOTAXE>
+            <NBRE_JOURS>45</NBRE_JOURS>
+            <DECALAGE>0</DECALAGE>
+            <MONNAIE>EUR</MONNAIE>
+            <VALID>1</VALID>
+            <ARRETE>F</ARRETE>
+            <adresse>
+                <STYPE>facturation</STYPE>
+                <NOM>Union des Assurances Immobilières</NOM>
+                <ADRESSE>Tour Défense</ADRESSE>
+                <ADRESSE2>Étage 42</ADRESSE2>
+                <CP>92000</CP>
+                <VILLE>LA DEFENSE</VILLE>
+                <PAYS>France</PAYS>
+                <TEL>0147123456</TEL>
+                <EMAIL>factures@uai.fr</EMAIL>
+            </adresse>
+            <adresse>
+                <STYPE>livraison</STYPE>
+                <NOM>Union des Assurances Immobilières</NOM>
+                <ADRESSE>Tour Défense</ADRESSE>
+                <CP>92000</CP>
+                <VILLE>LA DEFENSE</VILLE>
+                <PAYS>France</PAYS>
+            </adresse>
+            <LIGNE>
+                <NUMERO>1</NUMERO>
+                <ARTICLE_WEB_CODE>PRES-INFO</ARTICLE_WEB_CODE>
+                <DESIG>Prestations informatiques - Juillet 2025</DESIG>
+                <QTE>5,50</QTE>
+                <PUHT>850,00</PUHT>
+                <TAUX_REMISE>0,00</TAUX_REMISE>
+                <GCPTVA_CODE>NORM</GCPTVA_CODE>
+            </LIGNE>
+        </PIECE>
+        <PIECE>
+            <CLIENT_CODE>1AIR01</CLIENT_CODE>
+            <TYPE>F</TYPE>
+            <WEB_ID>#1006</WEB_ID>
+            <DESIG>Prestations informatiques - Juillet 2025</DESIG>
+            <DATE_CREATION>31/07/2025</DATE_CREATION>
+            <DATE_LIVRAISON>31/07/2025</DATE_LIVRAISON>
+            <TAUX_REMISE>0,00</TAUX_REMISE>
+            <TAUX_ESCOMPTE>0,00</TAUX_ESCOMPTE>
+            <GCPREG_CODE>VIR</GCPREG_CODE>
+            <PORT_HT>0,00</PORT_HT>
+            <FRAIS_HT>0,00</FRAIS_HT>
+            <ECOTAXE>0</ECOTAXE>
+            <NBRE_JOURS>45</NBRE_JOURS>
+            <DECALAGE>0</DECALAGE>
+            <MONNAIE>EUR</MONNAIE>
+            <VALID>1</VALID>
+            <ARRETE>F</ARRETE>
+            <adresse>
+                <STYPE>facturation</STYPE>
+                <NOM>Union des Assurances Immobilières</NOM>
+                <ADRESSE>Tour Défense</ADRESSE>
+                <ADRESSE2>Étage 42</ADRESSE2>
+                <CP>92000</CP>
+                <VILLE>LA DEFENSE</VILLE>
+                <PAYS>France</PAYS>
+                <TEL>0147123456</TEL>
+                <EMAIL>factures@uai.fr</EMAIL>
+            </adresse>
+            <adresse>
+                <STYPE>livraison</STYPE>
+                <NOM>Union des Assurances Immobilières</NOM>
+                <ADRESSE>Tour Défense</ADRESSE>
+                <CP>92000</CP>
+                <VILLE>LA DEFENSE</VILLE>
+                <PAYS>France</PAYS>
+            </adresse>
+            <LIGNE>
+                <NUMERO>1</NUMERO>
+                <ARTICLE_WEB_CODE>PRES-INFO</ARTICLE_WEB_CODE>
+                <DESIG>Prestations informatiques - Juillet 2025</DESIG>
+                <QTE>9,00</QTE>
+                <PUHT>850,00</PUHT>
+                <TAUX_REMISE>0,00</TAUX_REMISE>
+                <GCPTVA_CODE>NORM</GCPTVA_CODE>
+            </LIGNE>
+        </PIECE>
+        <PIECE>
+            <CLIENT_CODE>1AIR01</CLIENT_CODE>
+            <TYPE>D</TYPE>
+            <WEB_ID>#1007</WEB_ID>
+            <DESIG>Projet optimisation base de données</DESIG>
+            <DATE_CREATION>31/07/2025</DATE_CREATION>
+            <DATE_LIVRAISON>31/07/2025</DATE_LIVRAISON>
+            <TAUX_REMISE>0,00</TAUX_REMISE>
+            <TAUX_ESCOMPTE>0,00</TAUX_ESCOMPTE>
+            <GCPREG_CODE>VIR</GCPREG_CODE>
+            <PORT_HT>0,00</PORT_HT>
+            <FRAIS_HT>0,00</FRAIS_HT>
+            <ECOTAXE>0</ECOTAXE>
+            <NBRE_JOURS>45</NBRE_JOURS>
+            <DECALAGE>0</DECALAGE>
+            <MONNAIE>EUR</MONNAIE>
+            <VALID>1</VALID>
+            <ARRETE>F</ARRETE>
+            <adresse>
+                <STYPE>facturation</STYPE>
+                <NOM>Union des Assurances Immobilières</NOM>
+                <ADRESSE>Tour Défense</ADRESSE>
+                <ADRESSE2>Étage 42</ADRESSE2>
+                <CP>92000</CP>
+                <VILLE>LA DEFENSE</VILLE>
+                <PAYS>France</PAYS>
+                <TEL>0147123456</TEL>
+                <EMAIL>factures@uai.fr</EMAIL>
+            </adresse>
+            <adresse>
+                <STYPE>livraison</STYPE>
+                <NOM>Union des Assurances Immobilières</NOM>
+                <ADRESSE>Tour Défense</ADRESSE>
+                <CP>92000</CP>
+                <VILLE>LA DEFENSE</VILLE>
+                <PAYS>France</PAYS>
+            </adresse>
+            <LIGNE>
+                <NUMERO>1</NUMERO>
+                <ARTICLE_WEB_CODE>PRES-INFO</ARTICLE_WEB_CODE>
+                <DESIG>Projet optimisation base de données</DESIG>
+                <QTE>30,00</QTE>
+                <PUHT>850,00</PUHT>
+                <TAUX_REMISE>0,00</TAUX_REMISE>
+                <GCPTVA_CODE>NORM</GCPTVA_CODE>
+            </LIGNE>
+        </PIECE>
+        <PIECE>
+            <CLIENT_CODE>LEF01</CLIENT_CODE>
+            <TYPE>F</TYPE>
+            <WEB_ID>#1008</WEB_ID>
+            <DESIG>Prestations informatiques - Juillet 2025</DESIG>
+            <DATE_CREATION>31/07/2025</DATE_CREATION>
+            <DATE_LIVRAISON>31/07/2025</DATE_LIVRAISON>
+            <TAUX_REMISE>0,00</TAUX_REMISE>
+            <TAUX_ESCOMPTE>0,00</TAUX_ESCOMPTE>
+            <GCPREG_CODE>VIR</GCPREG_CODE>
+            <PORT_HT>0,00</PORT_HT>
+            <FRAIS_HT>0,00</FRAIS_HT>
+            <ECOTAXE>0</ECOTAXE>
+            <NBRE_JOURS>30</NBRE_JOURS>
+            <DECALAGE>0</DECALAGE>
+            <MONNAIE>EUR</MONNAIE>
+            <VALID>1</VALID>
+            <ARRETE>F</ARRETE>
+            <adresse>
+                <STYPE>facturation</STYPE>
+                <NOM>Cabinet LEFEBVRE</NOM>
+                <ADRESSE>15 rue de la République</ADRESSE>
+                <CP>13001</CP>
+                <VILLE>MARSEILLE</VILLE>
+                <PAYS>France</PAYS>
+                <EMAIL>admin@lefebvre.fr</EMAIL>
+            </adresse>
+            <adresse>
+                <STYPE>livraison</STYPE>
+                <NOM>Cabinet LEFEBVRE</NOM>
+                <ADRESSE>15 rue de la République</ADRESSE>
+                <CP>13001</CP>
+                <VILLE>MARSEILLE</VILLE>
+                <PAYS>France</PAYS>
+            </adresse>
+            <LIGNE>
+                <NUMERO>1</NUMERO>
+                <ARTICLE_WEB_CODE>PRES-INFO</ARTICLE_WEB_CODE>
+                <DESIG>Prestations informatiques - Juillet 2025</DESIG>
+                <QTE>4,00</QTE>
+                <PUHT>120,00</PUHT>
+                <TAUX_REMISE>0,00</TAUX_REMISE>
+                <GCPTVA_CODE>NORM</GCPTVA_CODE>
+            </LIGNE>
+        </PIECE>
+        <PIECE>
+            <CLIENT_CODE>PETRAS01</CLIENT_CODE>
+            <TYPE>F</TYPE>
+            <WEB_ID>#1009</WEB_ID>
+            <DESIG>Support informatique - Juillet 2025</DESIG>
+            <DATE_CREATION>31/07/2025</DATE_CREATION>
+            <DATE_LIVRAISON>31/07/2025</DATE_LIVRAISON>
+            <TAUX_REMISE>0,00</TAUX_REMISE>
+            <TAUX_ESCOMPTE>0,00</TAUX_ESCOMPTE>
+            <GCPREG_CODE>CHQ</GCPREG_CODE>
+            <PORT_HT>0,00</PORT_HT>
+            <FRAIS_HT>0,00</FRAIS_HT>
+            <ECOTAXE>0</ECOTAXE>
+            <NBRE_JOURS>30</NBRE_JOURS>
+            <DECALAGE>0</DECALAGE>
+            <MONNAIE>EUR</MONNAIE>
+            <VALID>1</VALID>
+            <ARRETE>F</ARRETE>
+            <adresse>
+                <STYPE>facturation</STYPE>
+                <NOM>PETRAS SAS</NOM>
+                <ADRESSE>Chemin des Vignes</ADRESSE>
+                <CP>83560</CP>
+                <VILLE>POURRIERES</VILLE>
+                <PAYS>France</PAYS>
+                <EMAIL>contact@petras.fr</EMAIL>
+            </adresse>
+            <adresse>
+                <STYPE>livraison</STYPE>
+                <NOM>PETRAS SAS</NOM>
+                <ADRESSE>Chemin des Vignes</ADRESSE>
+                <CP>83560</CP>
+                <VILLE>POURRIERES</VILLE>
+                <PAYS>France</PAYS>
+            </adresse>
+            <LIGNE>
+                <NUMERO>1</NUMERO>
+                <ARTICLE_WEB_CODE>PRES-INFO</ARTICLE_WEB_CODE>
+                <DESIG>Support informatique - Juillet 2025</DESIG>
+                <QTE>2,00</QTE>
+                <PUHT>100,00</PUHT>
+                <TAUX_REMISE>0,00</TAUX_REMISE>
+                <GCPTVA_CODE>NORM</GCPTVA_CODE>
+            </LIGNE>
+        </PIECE>
+        <PIECE>
+            <CLIENT_CODE>TOUZ01</CLIENT_CODE>
+            <TYPE>F</TYPE>
+            <WEB_ID>#1010</WEB_ID>
+            <DESIG>Maintenance informatique - Juillet 2025</DESIG>
+            <DATE_CREATION>31/07/2025</DATE_CREATION>
+            <DATE_LIVRAISON>31/07/2025</DATE_LIVRAISON>
+            <TAUX_REMISE>0,00</TAUX_REMISE>
+            <TAUX_ESCOMPTE>0,00</TAUX_ESCOMPTE>
+            <GCPREG_CODE>VIR</GCPREG_CODE>
+            <PORT_HT>0,00</PORT_HT>
+            <FRAIS_HT>0,00</FRAIS_HT>
+            <ECOTAXE>0</ECOTAXE>
+            <NBRE_JOURS>30</NBRE_JOURS>
+            <DECALAGE>0</DECALAGE>
+            <MONNAIE>EUR</MONNAIE>
+            <VALID>1</VALID>
+            <ARRETE>F</ARRETE>
+            <adresse>
+                <STYPE>facturation</STYPE>
+                <NOM>TOUZEAU</NOM>
+                <ADRESSE>Route de la Mer</ADRESSE>
+                <CP>13600</CP>
+                <VILLE>LA CIOTAT</VILLE>
+                <PAYS>France</PAYS>
+            </adresse>
+            <adresse>
+                <STYPE>livraison</STYPE>
+                <NOM>TOUZEAU</NOM>
+                <ADRESSE>Route de la Mer</ADRESSE>
+                <CP>13600</CP>
+                <VILLE>LA CIOTAT</VILLE>
+                <PAYS>France</PAYS>
+            </adresse>
+            <LIGNE>
+                <NUMERO>1</NUMERO>
+                <ARTICLE_WEB_CODE>PRES-INFO</ARTICLE_WEB_CODE>
+                <DESIG>Maintenance informatique - Juillet 2025</DESIG>
+                <QTE>1,50</QTE>
+                <PUHT>100,00</PUHT>
+                <TAUX_REMISE>0,00</TAUX_REMISE>
+                <GCPTVA_CODE>NORM</GCPTVA_CODE>
+            </LIGNE>
+        </PIECE>
+        <PIECE>
+            <CLIENT_CODE>AXI01</CLIENT_CODE>
+            <TYPE>F</TYPE>
+            <WEB_ID>#1011</WEB_ID>
+            <DESIG>Prestations informatiques - Juillet 2025</DESIG>
+            <DATE_CREATION>31/07/2025</DATE_CREATION>
+            <DATE_LIVRAISON>31/07/2025</DATE_LIVRAISON>
+            <TAUX_REMISE>0,00</TAUX_REMISE>
+            <TAUX_ESCOMPTE>0,00</TAUX_ESCOMPTE>
+            <GCPREG_CODE>VIR</GCPREG_CODE>
+            <PORT_HT>0,00</PORT_HT>
+            <FRAIS_HT>0,00</FRAIS_HT>
+            <ECOTAXE>0</ECOTAXE>
+            <NBRE_JOURS>30</NBRE_JOURS>
+            <DECALAGE>0</DECALAGE>
+            <MONNAIE>EUR</MONNAIE>
+            <VALID>1</VALID>
+            <ARRETE>F</ARRETE>
+            <adresse>
+                <STYPE>facturation</STYPE>
+                <NOM>AXION INFRASTRUCTURE</NOM>
+                <ADRESSE>Parc d'Activités</ADRESSE>
+                <CP>13400</CP>
+                <VILLE>AUBAGNE</VILLE>
+                <PAYS>France</PAYS>
+                <EMAIL>compta@axion.fr</EMAIL>
+            </adresse>
+            <adresse>
+                <STYPE>livraison</STYPE>
+                <NOM>AXION INFRASTRUCTURE</NOM>
+                <ADRESSE>Parc d'Activités</ADRESSE>
+                <CP>13400</CP>
+                <VILLE>AUBAGNE</VILLE>
+                <PAYS>France</PAYS>
+            </adresse>
+            <LIGNE>
+                <NUMERO>1</NUMERO>
+                <ARTICLE_WEB_CODE>PRES-INFO</ARTICLE_WEB_CODE>
+                <DESIG>Prestations informatiques - Juillet 2025</DESIG>
+                <QTE>7,00</QTE>
+                <PUHT>100,00</PUHT>
+                <TAUX_REMISE>0,00</TAUX_REMISE>
+                <GCPTVA_CODE>NORM</GCPTVA_CODE>
+            </LIGNE>
+        </PIECE>
+        <PIECE>
+            <CLIENT_CODE>ARTI01</CLIENT_CODE>
+            <TYPE>F</TYPE>
+            <WEB_ID>#1012</WEB_ID>
+            <DESIG>Maintenance informatique - Juillet 2025</DESIG>
+            <DATE_CREATION>31/07/2025</DATE_CREATION>
+            <DATE_LIVRAISON>31/07/2025</DATE_LIVRAISON>
+            <TAUX_REMISE>0,00</TAUX_REMISE>
+            <TAUX_ESCOMPTE>0,00</TAUX_ESCOMPTE>
+            <GCPREG_CODE>VIR</GCPREG_CODE>
+            <PORT_HT>0,00</PORT_HT>
+            <FRAIS_HT>0,00</FRAIS_HT>
+            <ECOTAXE>0</ECOTAXE>
+            <NBRE_JOURS>30</NBRE_JOURS>
+            <DECALAGE>0</DECALAGE>
+            <MONNAIE>EUR</MONNAIE>
+            <VALID>1</VALID>
+            <ARRETE>F</ARRETE>
+            <adresse>
+                <STYPE>facturation</STYPE>
+                <NOM>ART INFO</NOM>
+                <ADRESSE>Zone Artisanale</ADRESSE>
+                <CP>13127</CP>
+                <VILLE>VITROLLES</VILLE>
+                <PAYS>France</PAYS>
+            </adresse>
+            <adresse>
+                <STYPE>livraison</STYPE>
+                <NOM>ART INFO</NOM>
+                <ADRESSE>Zone Artisanale</ADRESSE>
+                <CP>13127</CP>
+                <VILLE>VITROLLES</VILLE>
+                <PAYS>France</PAYS>
+            </adresse>
+            <LIGNE>
+                <NUMERO>1</NUMERO>
+                <ARTICLE_WEB_CODE>PRES-INFO</ARTICLE_WEB_CODE>
+                <DESIG>Maintenance informatique - Juillet 2025</DESIG>
+                <QTE>2,00</QTE>
+                <PUHT>100,00</PUHT>
+                <TAUX_REMISE>0,00</TAUX_REMISE>
+                <GCPTVA_CODE>NORM</GCPTVA_CODE>
+            </LIGNE>
+        </PIECE>
+        <PIECE>
+            <CLIENT_CODE>FAR01</CLIENT_CODE>
+            <TYPE>F</TYPE>
+            <WEB_ID>#1013</WEB_ID>
+            <DESIG>Support informatique - Juillet 2025</DESIG>
+            <DATE_CREATION>31/07/2025</DATE_CREATION>
+            <DATE_LIVRAISON>31/07/2025</DATE_LIVRAISON>
+            <TAUX_REMISE>0,00</TAUX_REMISE>
+            <TAUX_ESCOMPTE>0,00</TAUX_ESCOMPTE>
+            <GCPREG_CODE>CHQ</GCPREG_CODE>
+            <PORT_HT>0,00</PORT_HT>
+            <FRAIS_HT>0,00</FRAIS_HT>
+            <ECOTAXE>0</ECOTAXE>
+            <NBRE_JOURS>30</NBRE_JOURS>
+            <DECALAGE>0</DECALAGE>
+            <MONNAIE>EUR</MONNAIE>
+            <VALID>1</VALID>
+            <ARRETE>F</ARRETE>
+            <adresse>
+                <STYPE>facturation</STYPE>
+                <NOM>FARBOS</NOM>
+                <ADRESSE>Avenue du Commerce</ADRESSE>
+                <CP>13800</CP>
+                <VILLE>ISTRES</VILLE>
+                <PAYS>France</PAYS>
+            </adresse>
+            <adresse>
+                <STYPE>livraison</STYPE>
+                <NOM>FARBOS</NOM>
+                <ADRESSE>Avenue du Commerce</ADRESSE>
+                <CP>13800</CP>
+                <VILLE>ISTRES</VILLE>
+                <PAYS>France</PAYS>
+            </adresse>
+            <LIGNE>
+                <NUMERO>1</NUMERO>
+                <ARTICLE_WEB_CODE>PRES-INFO</ARTICLE_WEB_CODE>
+                <DESIG>Support informatique - Juillet 2025</DESIG>
+                <QTE>1,50</QTE>
+                <PUHT>100,00</PUHT>
+                <TAUX_REMISE>0,00</TAUX_REMISE>
+                <GCPTVA_CODE>NORM</GCPTVA_CODE>
+            </LIGNE>
+        </PIECE>
+        <PIECE>
+            <CLIENT_CODE>AIX01</CLIENT_CODE>
+            <TYPE>F</TYPE>
+            <WEB_ID>#1014</WEB_ID>
+            <DESIG>Prestations informatiques - Juillet 2025</DESIG>
+            <DATE_CREATION>31/07/2025</DATE_CREATION>
+            <DATE_LIVRAISON>31/07/2025</DATE_LIVRAISON>
+            <TAUX_REMISE>0,00</TAUX_REMISE>
+            <TAUX_ESCOMPTE>0,00</TAUX_ESCOMPTE>
+            <GCPREG_CODE>VIR</GCPREG_CODE>
+            <PORT_HT>0,00</PORT_HT>
+            <FRAIS_HT>0,00</FRAIS_HT>
+            <ECOTAXE>0</ECOTAXE>
+            <NBRE_JOURS>30</NBRE_JOURS>
+            <DECALAGE>0</DECALAGE>
+            <MONNAIE>EUR</MONNAIE>
+            <VALID>1</VALID>
+            <ARRETE>F</ARRETE>
+            <adresse>
+                <STYPE>facturation</STYPE>
+                <NOM>AIXAGON</NOM>
+                <ADRESSE>5 Montée de Baume</ADRESSE>
+                <ADRESSE2>Auberge Neuve</ADRESSE2>
+                <CP>13124</CP>
+                <VILLE>PEYPIN</VILLE>
+                <PAYS>France</PAYS>
+                <EMAIL>sabinec@aixagon.fr</EMAIL>
+            </adresse>
+            <adresse>
+                <STYPE>livraison</STYPE>
+                <NOM>AIXAGON</NOM>
+                <ADRESSE>5 Montée de Baume</ADRESSE>
+                <CP>13124</CP>
+                <VILLE>PEYPIN</VILLE>
+                <PAYS>France</PAYS>
+            </adresse>
+            <LIGNE>
+                <NUMERO>1</NUMERO>
+                <ARTICLE_WEB_CODE>PRES-INFO</ARTICLE_WEB_CODE>
+                <DESIG>Prestations informatiques - Juillet 2025</DESIG>
+                <QTE>4,00</QTE>
+                <PUHT>100,00</PUHT>
+                <TAUX_REMISE>0,00</TAUX_REMISE>
+                <GCPTVA_CODE>NORM</GCPTVA_CODE>
+            </LIGNE>
+        </PIECE>
+        <PIECE>
+            <CLIENT_CODE>QUAD01</CLIENT_CODE>
+            <TYPE>F</TYPE>
+            <WEB_ID>#1015</WEB_ID>
+            <DESIG>Prestations informatiques - Juillet 2025</DESIG>
+            <DATE_CREATION>31/07/2025</DATE_CREATION>
+            <DATE_LIVRAISON>31/07/2025</DATE_LIVRAISON>
+            <TAUX_REMISE>0,00</TAUX_REMISE>
+            <TAUX_ESCOMPTE>0,00</TAUX_ESCOMPTE>
+            <GCPREG_CODE>VIR</GCPREG_CODE>
+            <PORT_HT>0,00</PORT_HT>
+            <FRAIS_HT>0,00</FRAIS_HT>
+            <ECOTAXE>0</ECOTAXE>
+            <NBRE_JOURS>30</NBRE_JOURS>
+            <DECALAGE>0</DECALAGE>
+            <MONNAIE>EUR</MONNAIE>
+            <VALID>1</VALID>
+            <ARRETE>F</ARRETE>
+            <adresse>
+                <STYPE>facturation</STYPE>
+                <NOM>QUADRIMEX</NOM>
+                <ADRESSE>Zone Industrielle Les Paluds</ADRESSE>
+                <CP>13400</CP>
+                <VILLE>AUBAGNE</VILLE>
+                <PAYS>France</PAYS>
+                <EMAIL>finance@quadrimex.fr</EMAIL>
+            </adresse>
+            <adresse>
+                <STYPE>livraison</STYPE>
+                <NOM>QUADRIMEX</NOM>
+                <ADRESSE>Zone Industrielle Les Paluds</ADRESSE>
+                <CP>13400</CP>
+                <VILLE>AUBAGNE</VILLE>
+                <PAYS>France</PAYS>
+            </adresse>
+            <LIGNE>
+                <NUMERO>1</NUMERO>
+                <ARTICLE_WEB_CODE>PRES-INFO</ARTICLE_WEB_CODE>
+                <DESIG>Prestations informatiques - Juillet 2025</DESIG>
+                <QTE>15,00</QTE>
+                <PUHT>100,00</PUHT>
+                <TAUX_REMISE>0,00</TAUX_REMISE>
+                <GCPTVA_CODE>NORM</GCPTVA_CODE>
+            </LIGNE>
+        </PIECE>
+    </NewDataSet>
+</DataSet>

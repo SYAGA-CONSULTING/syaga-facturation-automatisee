@@ -1,0 +1,35 @@
+{
+  "date_generation": "2025-08-11T08:45:23.658763",
+  "periode": "Juillet 2025",
+  "total_heures": 115.5,
+  "clients": 11,
+  "factures_xml": 14,
+  "devis_xml": 1,
+  "coherence": "OK",
+  "details": {
+    "LAA": {
+      "Dette technologique": 27.0,
+      "Tests": 21.5,
+      "Développements": 9.0,
+      "Maintenance HF": 5.0,
+      "TOTAL": 62.5
+    },
+    "LAA MAROC": {
+      "Maintenance": 1.5,
+      "TOTAL": 1.5
+    },
+    "UAI": {
+      "HardenAD": 5.5,
+      "SQL Server": 9.0,
+      "TOTAL": 14.5
+    },
+    "LEFEBVRE": 4.0,
+    "PETRAS": 2.0,
+    "TOUZEAU": 1.5,
+    "AXION": 7.0,
+    "ART INFO": 2.0,
+    "FARBOS": 1.5,
+    "PORT DE BOUC": 4.0,
+    "QUADRIMEX": 15.0
+  }
+}

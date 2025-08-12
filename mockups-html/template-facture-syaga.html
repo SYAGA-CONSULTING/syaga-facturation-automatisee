@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facture SYAGA</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #000;
+            background: white;
+        }
+        
+        .invoice-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .company-name {
+            font-size: 28px;
+            font-weight: bold;
+            color: #003d7a;
+            margin-bottom: 10px;
+        }
+        
+        .company-info {
+            font-size: 12px;
+            line-height: 1.5;
+            color: #333;
+        }
+        
+        .invoice-title {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #c00;
+            margin: 30px 0;
+        }
+        
+        .invoice-date {
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        
+        .client-section {
+            border: 2px solid #003d7a;
+            margin-bottom: 30px;
+            background: #e8f0f7;
+        }
+        
+        .client-header {
+            background: #d4e3f0;
+            padding: 8px 15px;
+            font-weight: bold;
+            border-bottom: 1px solid #003d7a;
+        }
+        
+        .client-info {
+            padding: 15px;
+            line-height: 1.6;
+        }
+        
+        .items-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        
+        .items-table th {
+            background: #003d7a;
+            color: white;
+            padding: 10px;
+            text-align: left;
+            font-size: 14px;
+        }
+        
+        .items-table th:last-child,
+        .items-table td:last-child {
+            text-align: right;
+        }
+        
+        .items-table td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            font-size: 13px;
+        }
+        
+        .totals-section {
+            margin-left: auto;
+            width: 300px;
+            margin-bottom: 40px;
+        }
+        
+        .totals-section table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .totals-section td {
+            padding: 8px;
+            font-size: 14px;
+        }
+        
+        .totals-section .total-row {
+            font-weight: bold;
+            font-size: 16px;
+            border-top: 2px solid #003d7a;
+        }
+        
+        .payment-info {
+            margin-top: 40px;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+        
+        .payment-info strong {
+            font-weight: bold;
+        }
+        
+        @media print {
+            body {
+                padding: 0;
+            }
+            .invoice-container {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="invoice-container">
+        <div class="header">
+            <div class="company-name">SYAGA CONSULTING</div>
+            <div class="company-info">
+                15 Rue des Pêcheurs - 13270 FOS-SUR-MER<br>
+                Tél: 06 61 28 33 76 - Email: sebastien.questier@syaga.fr<br>
+                SIRET: 799 332 507 00018 - TVA: FR 62 799332507
+            </div>
+        </div>
+        
+        <div class="invoice-title">FACTURE {{NUMERO_FACTURE}}</div>
+        <div class="invoice-date">Date: {{DATE_FACTURE}}</div>
+        
+        <div class="client-section">
+            <div class="client-header">CLIENT</div>
+            <div class="client-info">
+                <strong>{{CLIENT_NOM}}</strong><br>
+                {{CLIENT_ADRESSE}}<br>
+                {{CLIENT_CP_VILLE}}<br>
+                À l'attention de: {{CLIENT_CONTACT}}
+            </div>
+        </div>
+        
+        <table class="items-table">
+            <thead>
+                <tr>
+                    <th style="width: 50%;">Description</th>
+                    <th style="width: 15%;">Quantité</th>
+                    <th style="width: 15%;">Prix Unit.</th>
+                    <th style="width: 20%;">Total HT</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{LIGNES_FACTURE}}
+            </tbody>
+        </table>
+        
+        <div class="totals-section">
+            <table>
+                <tr>
+                    <td style="text-align: right;">Total HT:</td>
+                    <td style="text-align: right; font-weight: bold;">{{TOTAL_HT}} €</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">TVA 20%:</td>
+                    <td style="text-align: right;">{{TOTAL_TVA}} €</td>
+                </tr>
+                <tr class="total-row">
+                    <td style="text-align: right;">Total TTC:</td>
+                    <td style="text-align: right;">{{TOTAL_TTC}} €</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="payment-info">
+            <strong>Conditions de paiement:</strong> 30 jours date de facture<br>
+            <strong>Mode de règlement:</strong> Virement bancaire<br>
+            <strong>IBAN:</strong> FR76 1234 5678 9012 3456 7890 123<br>
+            <strong>BIC:</strong> BNPAFRPPXXX
+        </div>
+    </div>
+</body>
+</html>

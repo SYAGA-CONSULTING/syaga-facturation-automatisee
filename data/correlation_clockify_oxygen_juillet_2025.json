@@ -1,0 +1,12 @@
+{
+  "analysis_date": "2025-08-11",
+  "clockify_total_clients": 27,
+  "oxygen_total_clients": 11,
+  "correlation_results": {
+    "perfect_matches": [],
+    "issues_count": 13,
+    "clockify_only_count": 25,
+    "oxygen_only_count": 9,
+    "correlation_rate": 56.874384485171724
+  }
+}

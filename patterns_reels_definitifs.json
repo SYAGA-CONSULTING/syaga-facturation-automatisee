@@ -1,0 +1,27 @@
+{
+  "LAA": {
+    "forfait_mensuel": 1400.0,
+    "description": "Forfait maintenance mensuel LAA",
+    "jour_facturation": 1
+  },
+  "PHARMABEST": {
+    "forfait_mensuel": 500.0,
+    "description": "Forfait maintenance mensuel Pharmabest",
+    "jour_facturation": 1
+  },
+  "BUQUET": {
+    "forfait_mensuel": 500.0,
+    "description": "Forfait maintenance mensuel Buquet",
+    "jour_facturation": 1
+  },
+  "PETRAS": {
+    "forfait_mensuel": 600.0,
+    "description": "Forfait maintenance mensuel Petras",
+    "jour_facturation": 1
+  },
+  "LAA MAROC": {
+    "forfait_mensuel": 250.0,
+    "description": "Forfait support à distance Maroc",
+    "jour_facturation": 1
+  }
+}

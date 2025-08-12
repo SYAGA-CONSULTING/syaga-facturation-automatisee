@@ -1,0 +1,51 @@
+{
+  "LAA": {
+    "montant_recurrent": 1562.5,
+    "frequence": 4,
+    "dernier_montant": 1562.5,
+    "derniere_date": "2025-07-46",
+    "dernier_objet": "Maintenance et support IT - Juillet 2025"
+  },
+  "UAI": {
+    "montant_recurrent": 6162.5,
+    "frequence": 2,
+    "dernier_montant": 6162.5,
+    "derniere_date": "2025-07-31",
+    "dernier_objet": "Optimisation syst\u00e8me - 2/2 - Juillet 2025"
+  },
+  "PETRAS": {
+    "montant_recurrent": 200.0,
+    "frequence": 1,
+    "dernier_montant": 200.0,
+    "derniere_date": "2025-07-38",
+    "dernier_objet": "Support technique - Juillet 2025"
+  },
+  "LEFEBVRE": {
+    "montant_recurrent": 480.0,
+    "frequence": 1,
+    "dernier_montant": 480.0,
+    "derniere_date": "2025-07-37",
+    "dernier_objet": "Maintenance mensuelle - Juillet 2025"
+  },
+  "AIXAGON": {
+    "montant_recurrent": 750.0,
+    "frequence": 1,
+    "dernier_montant": 750.0,
+    "derniere_date": "2016-05-01",
+    "dernier_objet": "URGENCE - Analyse et d\u00e9sinfection antimalware/AntiSpam  - Clinique de Marignane - Devis n\u00b0 20160301 du 30/ 03/2016."
+  },
+  "QUADRIMEX": {
+    "montant_recurrent": 1500.0,
+    "frequence": 1,
+    "dernier_montant": 1500.0,
+    "derniere_date": "2025-07-31",
+    "dernier_objet": "D\u00e9veloppement sp\u00e9cifique - Juillet 2025"
+  },
+  "AXION": {
+    "montant_recurrent": 700.0,
+    "frequence": 1,
+    "dernier_montant": 700.0,
+    "derniere_date": "2025-07-34",
+    "dernier_objet": "Prestations d\u00e9veloppement - Juillet 2025"
+  }
+}

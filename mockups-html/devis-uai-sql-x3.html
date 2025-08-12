@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devis UAI - SQL X3</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            color: #000;
+            background: white;
+        }
+        
+        .invoice-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .company-name {
+            font-size: 28px;
+            font-weight: bold;
+            color: #003d7a;
+            margin-bottom: 10px;
+        }
+        
+        .company-info {
+            font-size: 12px;
+            line-height: 1.5;
+            color: #333;
+        }
+        
+        .invoice-title {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #0066cc;
+            margin: 30px 0;
+        }
+        
+        .invoice-date {
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        
+        .client-section {
+            border: 2px solid #003d7a;
+            margin-bottom: 30px;
+            background: #e8f0f7;
+        }
+        
+        .client-header {
+            background: #d4e3f0;
+            padding: 8px 15px;
+            font-weight: bold;
+            border-bottom: 1px solid #003d7a;
+        }
+        
+        .client-info {
+            padding: 15px;
+            line-height: 1.6;
+        }
+        
+        .project-description {
+            background: #f8f9fa;
+            border-left: 4px solid #0066cc;
+            padding: 20px;
+            margin: 30px 0;
+        }
+        
+        .project-description h3 {
+            color: #0066cc;
+            margin-top: 0;
+        }
+        
+        .items-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        
+        .items-table th {
+            background: #003d7a;
+            color: white;
+            padding: 10px;
+            text-align: left;
+            font-size: 14px;
+        }
+        
+        .items-table th:nth-child(2),
+        .items-table th:nth-child(3),
+        .items-table th:nth-child(4) {
+            text-align: right;
+        }
+        
+        .items-table td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            font-size: 13px;
+        }
+        
+        .items-table td:nth-child(2),
+        .items-table td:nth-child(3),
+        .items-table td:nth-child(4) {
+            text-align: right;
+        }
+        
+        .phase-row {
+            background: #f0f7ff;
+            font-weight: bold;
+        }
+        
+        .totals-section {
+            margin-left: auto;
+            width: 300px;
+            margin-bottom: 40px;
+        }
+        
+        .totals-section table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .totals-section td {
+            padding: 8px;
+            font-size: 14px;
+        }
+        
+        .totals-section .total-row {
+            font-weight: bold;
+            font-size: 16px;
+            border-top: 2px solid #003d7a;
+        }
+        
+        .payment-info {
+            margin-top: 40px;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+        
+        .payment-info strong {
+            font-weight: bold;
+        }
+        
+        .validity-box {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            padding: 15px;
+            margin-top: 30px;
+            border-radius: 5px;
+        }
+        
+        .signature-section {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .signature-box {
+            width: 45%;
+            border-top: 2px solid #333;
+            padding-top: 10px;
+            text-align: center;
+        }
+        
+        @media print {
+            body {
+                padding: 0;
+            }
+            .invoice-container {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="invoice-container">
+        <div class="header">
+            <div class="company-name">SYAGA CONSULTING</div>
+            <div class="company-info">
+                15 Rue des Pêcheurs - 13270 FOS-SUR-MER<br>
+                Tél: 06 61 28 33 76 - Email: sebastien.questier@syaga.fr<br>
+                SIRET: 799 332 507 00018 - TVA: FR 62 799332507
+            </div>
+        </div>
+        
+        <div class="invoice-title">DEVIS D2025-UAI-001</div>
+        <div class="invoice-date">Date: 31/07/2025</div>
+        
+        <div class="client-section">
+            <div class="client-header">CLIENT</div>
+            <div class="client-info">
+                <strong>UN AIR D'ICI</strong><br>
+                850 Chemin de Villefranche<br>
+                84200 CARPENTRAS<br>
+                À l'attention de: Frédéric BEAUTE<br>
+                Secteur: Fruits secs biologiques
+            </div>
+        </div>
+        
+        <div class="project-description">
+            <h3>Projet : Optimisation SQL Server X3</h3>
+            <p><strong>Objectif :</strong> Amélioration des performances du système Sage X3 par optimisation complète de la base de données SQL Server</p>
+            <p><strong>Durée estimée :</strong> 30 jours ouvrés</p>
+            <p><strong>Gain de performance attendu :</strong> x3 minimum sur les requêtes critiques</p>
+        </div>
+        
+        <table class="items-table">
+            <thead>
+                <tr>
+                    <th style="width: 50%;">Description</th>
+                    <th style="width: 15%;">Quantité</th>
+                    <th style="width: 15%;">Prix Unit.</th>
+                    <th style="width: 20%;">Total HT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="phase-row">
+                    <td colspan="4"><strong>PHASE 1 : Audit et Diagnostic (5 jours)</strong></td>
+                </tr>
+                <tr>
+                    <td>• Analyse de performance actuelle</td>
+                    <td>8.00 h</td>
+                    <td>100.00 €</td>
+                    <td>800.00 €</td>
+                </tr>
+                <tr>
+                    <td>• Identification des goulots d'étranglement</td>
+                    <td>12.00 h</td>
+                    <td>100.00 €</td>
+                    <td>1200.00 €</td>
+                </tr>
+                <tr>
+                    <td>• Analyse des requêtes lentes</td>
+                    <td>10.00 h</td>
+                    <td>100.00 €</td>
+                    <td>1000.00 €</td>
+                </tr>
+                <tr>
+                    <td>• Rapport d'audit détaillé</td>
+                    <td>10.00 h</td>
+                    <td>100.00 €</td>
+                    <td>1000.00 €</td>
+                </tr>
+                
+                <tr class="phase-row">
+                    <td colspan="4"><strong>PHASE 2 : Optimisation Base de Données (10 jours)</strong></td>
+                </tr>
+                <tr>
+                    <td>• Optimisation des index</td>
+                    <td>24.00 h</td>
+                    <td>100.00 €</td>
+                    <td>2400.00 €</td>
+                </tr>
+                <tr>
+                    <td>• Réécriture des requêtes critiques</td>
+                    <td>32.00 h</td>
+                    <td>100.00 €</td>
+                    <td>3200.00 €</td>
+                </tr>
+                <tr>
+                    <td>• Optimisation des procédures stockées</td>
+                    <td>16.00 h</td>
+                    <td>100.00 €</td>
+                    <td>1600.00 €</td>
+                </tr>
+                <tr>
+                    <td>• Configuration mémoire et cache</td>
+                    <td>8.00 h</td>
+                    <td>100.00 €</td>
+                    <td>800.00 €</td>
+                </tr>
+                
+                <tr class="phase-row">
+                    <td colspan="4"><strong>PHASE 3 : Optimisation Sage X3 (10 jours)</strong></td>
+                </tr>
+                <tr>
+                    <td>• Paramétrage X3 pour performances</td>
+                    <td>40.00 h</td>
+                    <td>100.00 €</td>
+                    <td>4000.00 €</td>
+                </tr>
+                <tr>
+                    <td>• Optimisation des workflows</td>
+                    <td>24.00 h</td>
+                    <td>100.00 €</td>
+                    <td>2400.00 €</td>
+                </tr>
+                <tr>
+                    <td>• Mise en place monitoring temps réel</td>
+                    <td>16.00 h</td>
+                    <td>100.00 €</td>
+                    <td>1600.00 €</td>
+                </tr>
+                
+                <tr class="phase-row">
+                    <td colspan="4"><strong>PHASE 4 : Tests et Formation (5 jours)</strong></td>
+                </tr>
+                <tr>
+                    <td>• Tests de charge et validation</td>
+                    <td>16.00 h</td>
+                    <td>100.00 €</td>
+                    <td>1600.00 €</td>
+                </tr>
+                <tr>
+                    <td>• Formation équipe interne</td>
+                    <td>16.00 h</td>
+                    <td>100.00 €</td>
+                    <td>1600.00 €</td>
+                </tr>
+                <tr>
+                    <td>• Documentation et procédures</td>
+                    <td>8.00 h</td>
+                    <td>100.00 €</td>
+                    <td>800.00 €</td>
+                </tr>
+                <tr>
+                    <td>• Support post-migration (inclus 3 mois)</td>
+                    <td>16.00 h</td>
+                    <td>100.00 €</td>
+                    <td>1600.00 €</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="totals-section">
+            <table>
+                <tr>
+                    <td style="text-align: right;">Total HT:</td>
+                    <td style="text-align: right; font-weight: bold;">25 500.00 €</td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">TVA 20%:</td>
+                    <td style="text-align: right;">5 100.00 €</td>
+                </tr>
+                <tr class="total-row">
+                    <td style="text-align: right;">Total TTC:</td>
+                    <td style="text-align: right;">30 600.00 €</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="validity-box">
+            <strong>⚠️ Validité du devis :</strong> 30 jours à compter de la date d'émission<br>
+            <strong>Conditions de paiement :</strong> 30% à la commande, 40% à mi-parcours, 30% à la livraison<br>
+            <strong>Délai de réalisation :</strong> 30 jours ouvrés après validation
+        </div>
+        
+        <div class="payment-info">
+            <strong>Mode de règlement:</strong> Virement bancaire<br>
+            <strong>IBAN:</strong> FR76 1234 5678 9012 3456 7890 123<br>
+            <strong>BIC:</strong> BNPAFRPPXXX<br><br>
+            <strong>Garantie :</strong> Amélioration x3 des performances ou remboursement partiel
+        </div>
+        
+        <div class="signature-section">
+            <div class="signature-box">
+                <p>Pour SYAGA CONSULTING<br>
+                Sébastien QUESTIER<br>
+                Date et signature :</p>
+            </div>
+            <div class="signature-box">
+                <p>Pour UN AIR D'ICI<br>
+                Bon pour accord<br>
+                Date et signature :</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

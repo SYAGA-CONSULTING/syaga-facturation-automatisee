@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataSet xmlns="http://tempuri.org/">
+	<NewDataSet xmlns="http://tempuri.org/data.xsd">
+		<PIECE>
+			<CLIENT_CODE>PIGN</CLIENT_CODE>
+			<TYPE>C</TYPE>
+			<WEB_ID>#60</WEB_ID>
+			<DESIG>Petit matériel - bis</DESIG>
+			<DATE_CREATION>22/07/2014</DATE_CREATION>
+			<DATE_LIVRAISON>22/07/2014</DATE_LIVRAISON>
+			<TAUX_REMISE>20.00</TAUX_REMISE>
+			<TAUX_ESCOMPTE>0.00</TAUX_ESCOMPTE>
+			<GCPREG_CODE>CHQ</GCPREG_CODE>
+			<PORT_HT>8,00</PORT_HT>
+			<PORT_TVA_CODE></PORT_TVA_CODE>
+			<FRAIS_HT>11</FRAIS_HT>
+			<FRAIS_TVA_CODE>NORM</FRAIS_TVA_CODE>
+			<ECOTAXE>0</ECOTAXE>
+			<GCPEXP_CODE></GCPEXP_CODE>
+			<GCPTRA_CODE></GCPTRA_CODE>
+			<NBRE_JOURS>30</NBRE_JOURS>
+			<ARRETE>F</ARRETE>
+			<DECALAGE>5</DECALAGE>
+			<MONNAIE>EUR</MONNAIE>
+			<VALID>1</VALID>
+			<GCPREGM_CODE></GCPREGM_CODE>
+			<adresse>
+				<STYPE>facturation</STYPE>
+				<NOM>Société PIGNON</NOM>
+				<ADRESSE>969 route de Pégomas</ADRESSE>
+				<ADRESSE2>Bât A, P6</ADRESSE2>
+				<CP>06130</CP>
+				<VILLE>GRASSE</VILLE>
+				<REGION>PACA</REGION>
+				<PAYS>France</PAYS>
+				<TEL>+33499887766</TEL>
+				<MOBILE>0615193333</MOBILE>
+				<FAX>+33499887760</FAX>
+				<EMAIL>info_tech@email.com</EMAIL>
+			</adresse>
+			<adresse>
+				<STYPE>livraison</STYPE>
+				<ADRESSE>10 avenue de la plaine</ADRESSE>
+				<ADRESSE2>Bat C</ADRESSE2>
+				<CP>06250</CP>
+				<VILLE>MOUGINS</VILLE>
+				<PAYS>France</PAYS>
+				<TEL>0497219090</TEL>
+				<EMAIL>infos@pignon.fr</EMAIL>
+			</adresse>
+			<LIGNE>
+				<NUMERO>1</NUMERO>
+				<ARTICLE_WEB_CODE>UNIPINC</ARTICLE_WEB_CODE>
+				<DESIG>Pince universelle</DESIG>
+				<QTE>1.00</QTE>
+				<PUHT>9,00</PUHT>
+				<TAUX_REMISE>0.00</TAUX_REMISE>
+				<GCPTVA_CODE>NORM</GCPTVA_CODE>
+				<GCPTPF_CODE></GCPTPF_CODE>
+				<GCPDEPOT_CODE></GCPDEPOT_CODE>
+			</LIGNE>
+			<LIGNE>
+				<NUMERO>2</NUMERO>
+				<ARTICLE_WEB_CODE>PLBPIT</ARTICLE_WEB_CODE>
+				<DESIG>Planche pin teintée</DESIG>
+				<QTE>20.00</QTE>
+				<PUHT>79,28</PUHT>
+				<TAUX_REMISE>0.00</TAUX_REMISE>
+				<GCPTVA_CODE>RED</GCPTVA_CODE>
+			</LIGNE>
+			<LIGNE>
+				<NUMERO>3</NUMERO>
+				<DESIG>Commentaire</DESIG>
+				<QTE>0.00</QTE>
+				<TAUX_REMISE>0.00</TAUX_REMISE>
+			</LIGNE>
+		</PIECE>
+		<PIECE>
+			<TYPE>D</TYPE>
+			<WEB_ID>#61</WEB_ID>
+			<DATE_CREATION>23/07/2014</DATE_CREATION>
+			<CLIENT_CODE>BONH</CLIENT_CODE>
+			<TAUX_REMISE>20.00</TAUX_REMISE>
+			<TAUX_ESCOMPTE>0.00</TAUX_ESCOMPTE>
+			<GCPREG_CODE>CB</GCPREG_CODE>
+			<PORT_HT>8,00</PORT_HT>
+			<ECOTAXE>0</ECOTAXE>
+			<DECALAGE>0</DECALAGE>
+			<NBRE_JOURS>0</NBRE_JOURS>
+			<MONNAIE>EUR</MONNAIE>
+			<VALID>0</VALID>
+			<adresse>
+				<STYPE>livraison</STYPE>
+				<ADRESSE>170 chemin des Roses</ADRESSE>
+				<ADRESSE2>Bat. B</ADRESSE2>
+				<CP>06250</CP>
+				<VILLE>MOUGINS</VILLE>
+				<PAYS>France</PAYS>
+				<TEL>0497216090</TEL>
+				<EMAIL>demande@bonh.fr</EMAIL>
+			</adresse>
+			<adresse>
+				<STYPE>facturation</STYPE>
+				<ADRESSE>969 route de Pégomas</ADRESSE>
+				<ADRESSE2>Bât A</ADRESSE2>
+				<CP>06130</CP>
+				<VILLE>GRASSE</VILLE>
+				<PAYS>France</PAYS>
+				<MOBILE>0615193499</MOBILE>
+			</adresse>
+			<LIGNE>
+				<NUMERO>200</NUMERO>
+				<ARTICLE_WEB_CODE>ARDNAT</ARTICLE_WEB_CODE>
+				<DESIG>Ardoise naturelle</DESIG>
+				<QTE>15</QTE>
+				<PUHT>20.81</PUHT>
+				<TAUX_REMISE>0.00</TAUX_REMISE>
+			</LIGNE>
+			<LIGNE>
+				<NUMERO>201</NUMERO>
+				<DESIG>Commentaire suppl.</DESIG>
+			</LIGNE>
+		</PIECE>
+	</NewDataSet></DataSet>

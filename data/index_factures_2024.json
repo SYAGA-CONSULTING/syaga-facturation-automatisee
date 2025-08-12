@@ -1,0 +1,28 @@
+{
+  "date_scan": "2025-08-11T20:00:37.678466",
+  "factures_candidates": [
+    {
+      "numero": "F20241011",
+      "client_probable": "BUQUET SA",
+      "type_probable": "Licences Windows CVC",
+      "estimation_ht": 8500,
+      "status": "\u00c0_LIRE_MANUELLEMENT"
+    },
+    {
+      "numero": "F20241012",
+      "client_probable": "PETRAS",
+      "type_probable": "Licences Windows PME",
+      "estimation_ht": 4500,
+      "status": "\u00c0_LIRE_MANUELLEMENT"
+    },
+    {
+      "numero": "F20241015",
+      "client_probable": "PROVEN\u00c7ALE SA",
+      "type_probable": "Licences Windows Enterprise",
+      "estimation_ht": 25000,
+      "status": "\u00c0_LIRE_MANUELLEMENT"
+    }
+  ],
+  "total_estimation": 51560,
+  "status": "SCAN_PRELIMINARY"
+}

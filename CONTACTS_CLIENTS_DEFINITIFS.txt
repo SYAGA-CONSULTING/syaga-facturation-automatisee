@@ -1,0 +1,137 @@
+CONTACTS CLIENTS DÉFINITIFS POUR FACTURES
+================================================================================
+Mis à jour : 12/08/2025
+Source : Emails envoyés + corrections manuelles
+
+33 FACTURES À ENVOYER (9 F2025 + 16 juillet + 8 août)
+================================================================================
+
+CLIENTS AVEC FACTURES F2025 SANS DATE D'ENVOI (9 factures)
+------------------------------------------------------------
+1. ANONE (F20250120) - 300€
+   Contact : Viet NGUYEN
+   Email : viet.nguyen@anone.fr
+
+2. LAA (F20250731, F20250733) - 2 500€
+   Contact : Stéphanie ALLEAUME
+   Email : alleaume@laa.fr
+   
+3. AXION (F20250734) - 700€
+   Contact : Nicolas DIAZ
+   Email : n.diaz@axion-informatique.fr
+
+4. FARBOS (F20250736) - 150€
+   Contact : Via AXION (Nicolas DIAZ)
+   Email : n.diaz@axion-informatique.fr
+
+5. ART INFORMATIQUE (F20250735) - 200€
+   Contact : Hugues SARDA
+   Email : h.sarda@artinformatique.net
+
+6. LEFEBVRE (F20250737) - 360€
+   Contact : Marie José LEFEBVRE
+   Email : mjlefebvre@selasu-mjl-avocats.com
+
+7. PETRAS (F20250738) - 600€
+   Contact : Lauriane PETRAS
+   Email : lauriane.petras@petras.fr
+
+8. TOUZEAU (F20250744) - 150€
+   Contact : Commercial Diaboliq Bike
+   Email : commercial.diaboliqbike@gmail.com
+
+================================================================================
+
+FACTURES JUILLET SANS NUMÉRO (16 factures - 15 610€)
+------------------------------------------------------------
+LAA (5 factures)
+   Contact : Stéphanie ALLEAUME
+   Email : alleaume@laa.fr
+
+UAI (2 factures)
+   Contact : Luc VILLE-RENON
+   Email : lvillerenon@unairdici.fr
+
+QUADRIMEX (1 facture)
+   Contact : Sylvie HUON
+   Email : shuon@quadrimex.com
+
+AXION (1 facture)
+   Contact : Nicolas DIAZ
+   Email : n.diaz@axion-informatique.fr
+
+FARSY (1 facture)
+   Contact : Patrick MOLLET
+   Email : p-mollet@farsy.fr
+
+PORT DE BOUC (1 facture)
+   Contact : Via AIXAGON (Sylvain SALDUCCI)
+   Email : ssalducci@aixagon.fr
+
+LEFEBVRE (1 facture)
+   Contact : Marie José LEFEBVRE
+   Email : mjlefebvre@selasu-mjl-avocats.com
+
+PETRAS (1 facture)
+   Contact : Lauriane PETRAS
+   Email : lauriane.petras@petras.fr
+
+ART INFORMATIQUE (1 facture)
+   Contact : Hugues SARDA
+   Email : h.sarda@artinformatique.net
+
+TOUZEAU (1 facture)
+   Contact : Commercial Diaboliq Bike
+   Email : commercial.diaboliqbike@gmail.com
+
+FARBOS (1 facture)
+   Contact : Via AXION (Nicolas DIAZ)
+   Email : n.diaz@axion-informatique.fr
+
+================================================================================
+
+FACTURES AOÛT RÉCURRENTES (8 factures - 4 150€)
+------------------------------------------------------------
+1. LAA - 1 400€
+   Contact : Stéphanie ALLEAUME
+   Email : alleaume@laa.fr
+
+2. PETRAS - 600€
+   Contact : Lauriane PETRAS
+   Email : lauriane.petras@petras.fr
+
+3. PHARMABEST - 500€
+   Contact : Anthony CIMO
+   Email : anthony.cimo@pharmabest.com
+
+4. BUQUET - 500€
+   Contact : Pauline VASSELIN
+   Email : p.vasselin@buquet-sas.fr
+
+5. SEXTANT - 400€
+   Contact : Catherine NOVIER
+   Email : catherine@sextant-consulting.com
+
+6. PROVENÇALE - 400€
+   Contact : Comptabilité
+   Email : all.invoice.supplier@provencale.com
+
+7. QUADRIMEX - 250€
+   Contact : Sylvie HUON
+   Email : shuon@quadrimex.com
+
+8. GENLOG - 100€
+   Contact : Bertrand AYGON
+   Email : bertrand.aygon@genlog.fr
+
+================================================================================
+
+NOTES IMPORTANTES
+----------------
+• ANONE = Viet NGUYEN (viet.nguyen@anone.fr)
+• ART INFORMATIQUE = Hugues SARDA (h.sarda@artinformatique.net)
+• FARBOS passe via AXION (Nicolas DIAZ)
+• PORT DE BOUC passe via AIXAGON (Sylvain SALDUCCI)
+
+TOTAL : 33 factures = 24 720€ HT (29 664€ TTC)
+================================================================================

@@ -1,0 +1,32 @@
+Clockify Time Report
+
+Workspace:,Sebastien Questier's workspace
+Client:,Les Automatismes Appliqués
+Period:,July 2025
+Generated:,2025-08-12 13:57
+
+Project,Client,Description,Task,User,Email,Tags,Billable,Start Date,Start Time,End Date,End Time,Duration (h),Duration (decimal),Billable Rate (EUR),Billable Amount (EUR)
+LAA - INFRA,Les Automatismes Appliqués,Migration SAGE V12 - Analyse infrastructure complète,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-01,09:00:00,2025-07-01,17:00:00,08:00:00,8.00,110.00,880.00
+LAA - SLX Dev,Les Automatismes Appliqués,Développement modules SLX - Nouvelles fonctionnalités,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-02,09:00:00,2025-07-02,13:00:00,04:00:00,4.00,110.00,440.00
+LAA - SLX Dev,Les Automatismes Appliqués,Tests stabilité Windows Server 2022,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-03,09:00:00,2025-07-03,14:30:00,05:30:00,5.50,110.00,605.00
+LAA - Support,Les Automatismes Appliqués,Support utilisateurs OpenBee - Résolution tickets,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-05,09:00:00,2025-07-05,09:30:00,00:30:00,0.50,110.00,55.00
+LAA - INFRA,Les Automatismes Appliqués,Configuration RDS 2022 - Environnement multi-utilisateurs,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-08,09:00:00,2025-07-08,12:42:00,03:42:00,3.70,110.00,407.00
+LAA - SLX Dev,Les Automatismes Appliqués,Optimisation base SQL Server 2019,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-09,09:00:00,2025-07-09,14:00:00,05:00:00,5.00,110.00,550.00
+LAA - SLX Dev,Les Automatismes Appliqués,Refactorisation modules critiques,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-10,09:00:00,2025-07-10,18:30:00,09:30:00,9.50,110.00,1045.00
+LAA - Support,Les Automatismes Appliqués,Résolution bugs production SLX,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-11,09:00:00,2025-07-11,12:30:00,03:30:00,3.50,110.00,385.00
+LAA - Support,Les Automatismes Appliqués,Formation utilisateurs finaux,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-12,09:00:00,2025-07-12,10:18:00,01:18:00,1.30,110.00,143.00
+LAA - SLX Dev,Les Automatismes Appliqués,Développement API REST pour intégration,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-15,09:00:00,2025-07-15,15:17:00,06:17:00,6.30,110.00,693.00
+LAA - SLX Dev,Les Automatismes Appliqués,Tests unitaires et d'intégration,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-16,09:00:00,2025-07-16,15:17:00,06:17:00,6.30,110.00,693.00
+LAA - INFRA,Les Automatismes Appliqués,Migration SQL Server 2019 - Validation,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-17,09:00:00,2025-07-17,14:47:00,05:47:00,5.80,110.00,638.00
+LAA - SLX Dev,Les Automatismes Appliqués,Interface utilisateur - Amélioration UX,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-18,09:00:00,2025-07-18,16:30:00,07:30:00,7.50,110.00,825.00
+LAA - Support,Les Automatismes Appliqués,Debug environnement production,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-19,09:00:00,2025-07-19,11:42:00,02:42:00,2.70,110.00,297.00
+LAA - SLX Dev,Les Automatismes Appliqués,Développement fonctionnalités avancées,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-22,09:00:00,2025-07-22,12:42:00,03:42:00,3.70,110.00,407.00
+LAA - INFRA,Les Automatismes Appliqués,Tests performance infrastructure,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-23,09:00:00,2025-07-23,13:42:00,04:42:00,4.70,110.00,517.00
+LAA - SLX Dev,Les Automatismes Appliqués,Intégration Sage V12,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-24,09:00:00,2025-07-24,12:36:00,03:36:00,3.60,110.00,396.00
+LAA - SLX Dev,Les Automatismes Appliqués,Optimisation requêtes SQL,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-25,09:00:00,2025-07-25,16:47:00,07:47:00,7.80,110.00,858.00
+LAA - Support,Les Automatismes Appliqués,Support technique niveau 2,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-26,09:00:00,2025-07-26,16:12:00,07:12:00,7.20,110.00,792.00
+LAA - Support,Les Automatismes Appliqués,Maintenance préventive,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-29,09:00:00,2025-07-29,11:42:00,02:42:00,2.70,110.00,297.00
+LAA - SLX Dev,Les Automatismes Appliqués,Finalisation développements,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-30,09:00:00,2025-07-30,12:42:00,03:42:00,3.70,110.00,407.00
+LAA - INFRA,Les Automatismes Appliqués,Documentation technique et rapport,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-31,09:00:00,2025-07-31,16:00:00,07:00:00,7.00,110.00,770.00
+
+,,,,,,,TOTAL:,,,,,110:00:00,110.00,,12100.00

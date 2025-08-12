@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏭 VALIDATION FACTURES SYAGA - Août 2025</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(45deg, #2193b0, #6dd5ed);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .header .subtitle {
+            margin-top: 10px;
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 30px;
+            background: #f8f9fa;
+        }
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-top: 4px solid #28a745;
+        }
+        .stat-card h3 {
+            margin: 0 0 10px 0;
+            color: #28a745;
+            font-size: 1.1em;
+        }
+        .stat-card .value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #333;
+        }
+        .section {
+            padding: 30px;
+        }
+        .section h2 {
+            color: #2193b0;
+            border-bottom: 3px solid #6dd5ed;
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+        }
+        .table-container {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 10px;
+            text-align: left;
+            font-weight: bold;
+            position: sticky;
+            top: 0;
+        }
+        td {
+            padding: 12px 10px;
+            border-bottom: 1px solid #eee;
+        }
+        tr:hover {
+            background-color: #f8f9ff;
+        }
+        .montant {
+            font-weight: bold;
+            color: #28a745;
+            text-align: right;
+        }
+        .client {
+            font-weight: bold;
+            color: #2193b0;
+        }
+        .type-recurrent {
+            background: #d4edda;
+            color: #155724;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+        .type-fin-mois {
+            background: #fff3cd;
+            color: #856404;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+        .validation-buttons {
+            text-align: center;
+            padding: 30px;
+            background: #f8f9fa;
+            border-top: 3px solid #6dd5ed;
+        }
+        .btn {
+            padding: 15px 30px;
+            margin: 0 10px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .btn-primary {
+            background: #28a745;
+            color: white;
+        }
+        .btn-primary:hover {
+            background: #218838;
+            transform: translateY(-2px);
+        }
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+        .btn-secondary:hover {
+            background: #545b62;
+            transform: translateY(-2px);
+        }
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+            color: #856404;
+        }
+        .total-row {
+            background: #e8f5e8 !important;
+            font-weight: bold;
+            border-top: 2px solid #28a745;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>🏭 VALIDATION FACTURES SYAGA</h1>
+            <div class="subtitle">Août 2025 - Récurrentes + Juillet à finaliser</div>
+        </div>
+
+        <!-- Statistics -->
+        <div class="stats">
+            <div class="stat-card">
+                <h3>📊 Total Factures</h3>
+                <div class="value">11</div>
+            </div>
+            <div class="stat-card">
+                <h3>💰 CA Prévisionnel</h3>
+                <div class="value">7 000€</div>
+            </div>
+            <div class="stat-card">
+                <h3>🔄 Récurrentes</h3>
+                <div class="value">7</div>
+            </div>
+            <div class="stat-card">
+                <h3>📅 Juillet</h3>
+                <div class="value">4</div>
+            </div>
+        </div>
+
+        <!-- Récurrentes Août -->
+        <div class="section">
+            <h2>🔄 FACTURES RÉCURRENTES - AOÛT 2025</h2>
+            <div class="warning">
+                ⚠️ <strong>Validation requise :</strong> Ces montants sont basés sur les patterns historiques analysés. Vérifiez chaque ligne avant génération XML.
+            </div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Client</th>
+                            <th>Type</th>
+                            <th>Objet Facture</th>
+                            <th>Montant HT</th>
+                            <th>TVA 20%</th>
+                            <th>Total TTC</th>
+                            <th>Historique</th>
+                            <th>Dernière</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="client">LAA - Les Automatismes Appliqués</td>
+                            <td><span class="type-recurrent">RÉCURRENT</span></td>
+                            <td>Forfait mensuel - Prestations informatiques</td>
+                            <td class="montant">1 400,00 €</td>
+                            <td class="montant">280,00 €</td>
+                            <td class="montant">1 680,00 €</td>
+                            <td>1291 factures</td>
+                            <td>01/12/2025</td>
+                        </tr>
+                        <tr>
+                            <td class="client">BUQUET SAS</td>
+                            <td><span class="type-recurrent">RÉCURRENT</span></td>
+                            <td>Forfait mensuel - Support technique</td>
+                            <td class="montant">500,00 €</td>
+                            <td class="montant">100,00 €</td>
+                            <td class="montant">600,00 €</td>
+                            <td>44 factures</td>
+                            <td>01/12/2025</td>
+                        </tr>
+                        <tr>
+                            <td class="client">PHARMABEST - Dr ABENHAIM</td>
+                            <td><span class="type-recurrent">RÉCURRENT</span></td>
+                            <td>Forfait mensuel - Services informatiques</td>
+                            <td class="montant">500,00 €</td>
+                            <td class="montant">100,00 €</td>
+                            <td class="montant">600,00 €</td>
+                            <td>110 factures</td>
+                            <td>01/12/2025</td>
+                        </tr>
+                        <tr>
+                            <td class="client">PETRAS</td>
+                            <td><span class="type-recurrent">RÉCURRENT</span></td>
+                            <td>Forfait mensuel - Maintenance</td>
+                            <td class="montant">400,00 €</td>
+                            <td class="montant">80,00 €</td>
+                            <td class="montant">480,00 €</td>
+                            <td>44 factures</td>
+                            <td>01/12/2025</td>
+                        </tr>
+                        <tr>
+                            <td class="client">SEXTANT</td>
+                            <td><span class="type-recurrent">RÉCURRENT</span></td>
+                            <td>Forfait mensuel - Prestations</td>
+                            <td class="montant">400,00 €</td>
+                            <td class="montant">80,00 €</td>
+                            <td class="montant">480,00 €</td>
+                            <td>5 factures</td>
+                            <td>01/12/2025</td>
+                        </tr>
+                        <tr>
+                            <td class="client">AXION INFORMATIQUE</td>
+                            <td><span class="type-recurrent">RÉCURRENT</span></td>
+                            <td>Forfait mensuel - Support</td>
+                            <td class="montant">300,00 €</td>
+                            <td class="montant">60,00 €</td>
+                            <td class="montant">360,00 €</td>
+                            <td>8 factures</td>
+                            <td>34/07/2025</td>
+                        </tr>
+                        <tr>
+                            <td class="client">QUADRIMEX</td>
+                            <td><span class="type-recurrent">RÉCURRENT</span></td>
+                            <td>Forfait mensuel - Services</td>
+                            <td class="montant">300,00 €</td>
+                            <td class="montant">60,00 €</td>
+                            <td class="montant">360,00 €</td>
+                            <td>6 factures</td>
+                            <td>01/12/2025</td>
+                        </tr>
+                        <tr class="total-row">
+                            <td colspan="3"><strong>SOUS-TOTAL RÉCURRENTES</strong></td>
+                            <td class="montant"><strong>3 800,00 €</strong></td>
+                            <td class="montant"><strong>760,00 €</strong></td>
+                            <td class="montant"><strong>4 560,00 €</strong></td>
+                            <td colspan="2"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Juillet à finaliser -->
+        <div class="section">
+            <h2>📅 FACTURES JUILLET 2025 - À FINALISER</h2>
+            <div class="warning">
+                ⚠️ <strong>Attention :</strong> Les montants sont estimés. Intégrer les données Clockify réelles pour juillet avant validation finale.
+            </div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Client</th>
+                            <th>Type</th>
+                            <th>Objet Facture</th>
+                            <th>Montant HT</th>
+                            <th>TVA 20%</th>
+                            <th>Total TTC</th>
+                            <th>Historique Juillet</th>
+                            <th>Moyenne Hist.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="client">UAI - Un Air d'Ici</td>
+                            <td><span class="type-fin-mois">FIN_MOIS</span></td>
+                            <td>Prestations juillet 2025 - Temps réel</td>
+                            <td class="montant">800,00 €</td>
+                            <td class="montant">160,00 €</td>
+                            <td class="montant">960,00 €</td>
+                            <td>2 historiques</td>
+                            <td>6 162,50€</td>
+                        </tr>
+                        <tr>
+                            <td class="client">PROVENÇALE SA</td>
+                            <td><span class="type-fin-mois">FIN_MOIS</span></td>
+                            <td>Prestations juillet 2025 - Temps réel</td>
+                            <td class="montant">800,00 €</td>
+                            <td class="montant">160,00 €</td>
+                            <td class="montant">960,00 €</td>
+                            <td>8 historiques</td>
+                            <td>5 000,00€</td>
+                        </tr>
+                        <tr>
+                            <td class="client">GUERBET</td>
+                            <td><span class="type-fin-mois">FIN_MOIS</span></td>
+                            <td>Prestations juillet 2025 - Temps réel</td>
+                            <td class="montant">800,00 €</td>
+                            <td class="montant">160,00 €</td>
+                            <td class="montant">960,00 €</td>
+                            <td>2 historiques</td>
+                            <td>3 000,00€</td>
+                        </tr>
+                        <tr>
+                            <td class="client">AIXAGON</td>
+                            <td><span class="type-fin-mois">FIN_MOIS</span></td>
+                            <td>Prestations juillet 2025 - Temps réel</td>
+                            <td class="montant">800,00 €</td>
+                            <td class="montant">160,00 €</td>
+                            <td class="montant">960,00 €</td>
+                            <td>4 historiques</td>
+                            <td>750,00€</td>
+                        </tr>
+                        <tr class="total-row">
+                            <td colspan="3"><strong>SOUS-TOTAL JUILLET</strong></td>
+                            <td class="montant"><strong>3 200,00 €</strong></td>
+                            <td class="montant"><strong>640,00 €</strong></td>
+                            <td class="montant"><strong>3 840,00 €</strong></td>
+                            <td colspan="2"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Total Général -->
+        <div class="section">
+            <div class="table-container">
+                <table>
+                    <tbody>
+                        <tr class="total-row" style="font-size: 1.2em;">
+                            <td colspan="3"><strong>🎯 TOTAL GÉNÉRAL À GÉNÉRER</strong></td>
+                            <td class="montant"><strong>7 000,00 €</strong></td>
+                            <td class="montant"><strong>1 400,00 €</strong></td>
+                            <td class="montant"><strong>8 400,00 €</strong></td>
+                            <td colspan="2"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Validation Buttons -->
+        <div class="validation-buttons">
+            <h3>🎯 VALIDATION REQUISE AVANT EXPORT XML</h3>
+            <p>Vérifiez attentivement chaque ligne ci-dessus avant de procéder à la génération XML pour Oxygen.</p>
+            
+            <button class="btn btn-primary" onclick="window.print()">
+                📄 Imprimer/PDF pour Validation
+            </button>
+            
+            <button class="btn btn-secondary" onclick="alert('Validation en cours... Contactez le support pour modifications.')">
+                ✏️ Modifier les Montants
+            </button>
+            
+            <button class="btn btn-primary" onclick="alert('Prêt pour export XML ! Lancer le script generer_tableau_xml_oxygen.py')">
+                🚀 VALIDER & EXPORTER XML OXYGEN
+            </button>
+        </div>
+
+        <!-- Footer Info -->
+        <div class="section" style="background: #f8f9fa; border-top: 1px solid #dee2e6;">
+            <p><strong>📋 Instructions :</strong></p>
+            <ul>
+                <li>✅ <strong>Récurrentes :</strong> Montants basés sur patterns historiques analysés</li>
+                <li>⚠️ <strong>Juillet :</strong> Montants estimés - intégrer données Clockify réelles</li>
+                <li>🎯 <strong>Validation :</strong> Corriger si nécessaire avant export XML</li>
+                <li>🚀 <strong>Export :</strong> Utiliser <code>generer_tableau_xml_oxygen.py</code> après validation</li>
+            </ul>
+            
+            <p><strong>💾 Données source :</strong> Base SQLite (1680 factures, 3.1M€), CSV historique (3432 records), Patterns récurrence validés</p>
+            <p><strong>🏭 Écosystème SYAGA :</strong> Phase validation avant automation complète</p>
+        </div>
+    </div>
+
+    <script>
+        // Auto-scroll smooth sur chargement
+        window.addEventListener('load', function() {
+            document.body.style.scrollBehavior = 'smooth';
+        });
+        
+        // Highlight row on click
+        document.querySelectorAll('tr').forEach(row => {
+            row.addEventListener('click', function() {
+                this.style.backgroundColor = this.style.backgroundColor === 'rgb(255, 243, 205)' ? '' : '#fff3cd';
+            });
+        });
+    </script>
+</body>
+</html>

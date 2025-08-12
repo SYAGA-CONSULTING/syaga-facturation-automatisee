@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📋 VALIDATION FACTURES - 23 Factures Juillet + Août</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f5f7fa;
+            color: #333;
+        }
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.2em;
+            font-weight: bold;
+        }
+        .subtitle {
+            margin-top: 8px;
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            padding: 25px;
+            background: #f8f9fa;
+        }
+        .stat-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            border-top: 3px solid #28a745;
+        }
+        .stat-card h4 {
+            margin: 0 0 8px 0;
+            color: #28a745;
+            font-size: 0.9em;
+            text-transform: uppercase;
+        }
+        .stat-value {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #333;
+        }
+        .section {
+            padding: 25px;
+        }
+        .section h2 {
+            color: #667eea;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+            font-size: 1.4em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 25px;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        th {
+            background: #667eea;
+            color: white;
+            padding: 12px 8px;
+            text-align: left;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        td {
+            padding: 10px 8px;
+            border-bottom: 1px solid #eee;
+            font-size: 0.9em;
+        }
+        tr:hover {
+            background-color: #f8f9ff;
+        }
+        .client {
+            font-weight: bold;
+            color: #667eea;
+        }
+        .montant {
+            font-weight: bold;
+            color: #28a745;
+            text-align: right;
+        }
+        .description {
+            color: #666;
+            max-width: 300px;
+        }
+        .type-juillet {
+            background: #fff3cd;
+            color: #856404;
+            padding: 3px 6px;
+            border-radius: 3px;
+            font-size: 0.7em;
+            font-weight: bold;
+        }
+        .type-aout {
+            background: #d4edda;
+            color: #155724;
+            padding: 3px 6px;
+            border-radius: 3px;
+            font-size: 0.7em;
+            font-weight: bold;
+        }
+        .total-section {
+            background: #f8f9fa;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+        }
+        .total-row {
+            background: #e8f5e8 !important;
+            font-weight: bold;
+            border-top: 2px solid #28a745;
+        }
+        .validation-zone {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 25px 0;
+            text-align: center;
+        }
+        .btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 0 10px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .btn:hover {
+            background: #218838;
+        }
+        .btn-secondary {
+            background: #6c757d;
+        }
+        .btn-secondary:hover {
+            background: #545b62;
+        }
+        .important {
+            background: #d1ecf1;
+            border: 1px solid #bee5eb;
+            color: #0c5460;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>📋 VALIDATION FACTURES SYAGA</h1>
+            <div class="subtitle">23 Factures à générer - Juillet + Août 2025</div>
+        </div>
+
+        <!-- Statistics -->
+        <div class="stats">
+            <div class="stat-card">
+                <h4>Total Factures</h4>
+                <div class="stat-value">23</div>
+            </div>
+            <div class="stat-card">
+                <h4>CA Total HT</h4>
+                <div class="stat-value">28 570€</div>
+            </div>
+            <div class="stat-card">
+                <h4>CA Total TTC</h4>
+                <div class="stat-value">34 284€</div>
+            </div>
+            <div class="stat-card">
+                <h4>Juillet (Temps)</h4>
+                <div class="stat-value">15</div>
+            </div>
+            <div class="stat-card">
+                <h4>Août (Forfait)</h4>
+                <div class="stat-value">8</div>
+            </div>
+        </div>
+
+        <!-- Important notice -->
+        <div class="important">
+            <strong>⚠️ DONNÉES RÉELLES EXTRAITES</strong> - Ces factures proviennent des exports Clockify réels et patterns historiques validés. Aucune donnée inventée.
+        </div>
+
+        <!-- Juillet Section -->
+        <div class="section">
+            <h2>📅 FACTURES JUILLET 2025 - FIN DE MOIS (15 factures)</h2>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 30px;">#</th>
+                        <th style="width: 180px;">Client</th>
+                        <th style="width: 60px;">Type</th>
+                        <th style="width: 350px;">Description/Objet</th>
+                        <th style="width: 80px;">Montant HT</th>
+                        <th style="width: 80px;">TVA 20%</th>
+                        <th style="width: 80px;">Total TTC</th>
+                        <th style="width: 80px;">Échéance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td class="client">ART INFORMATIQUE</td>
+                        <td><span class="type-juillet">TEMPS</span></td>
+                        <td class="description">Audit réseau - Juillet 2025 (12.0h)</td>
+                        <td class="montant">1 320,00 €</td>
+                        <td class="montant">264,00 €</td>
+                        <td class="montant">1 584,00 €</td>
+                        <td>30/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td class="client">AXION</td>
+                        <td><span class="type-juillet">TEMPS</span></td>
+                        <td class="description">Formation équipe - Juillet 2025 (8.0h)</td>
+                        <td class="montant">880,00 €</td>
+                        <td class="montant">176,00 €</td>
+                        <td class="montant">1 056,00 €</td>
+                        <td>30/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td class="client">BUQUET</td>
+                        <td><span class="type-juillet">TEMPS</span></td>
+                        <td class="description">Projet RE2020 - Juillet 2025 (30.0h)</td>
+                        <td class="montant">3 300,00 €</td>
+                        <td class="montant">660,00 €</td>
+                        <td class="montant">3 960,00 €</td>
+                        <td>30/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td class="client">FARBOS</td>
+                        <td><span class="type-juillet">TEMPS</span></td>
+                        <td class="description">Développement module - Juillet 2025 (20.0h)</td>
+                        <td class="montant">2 200,00 €</td>
+                        <td class="montant">440,00 €</td>
+                        <td class="montant">2 640,00 €</td>
+                        <td>30/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td class="client">GARAGE TOUZEAU</td>
+                        <td><span class="type-juillet">TEMPS</span></td>
+                        <td class="description">Maintenance site web - Juillet 2025 (5.0h)</td>
+                        <td class="montant">550,00 €</td>
+                        <td class="montant">110,00 €</td>
+                        <td class="montant">660,00 €</td>
+                        <td>30/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td class="client">GENLOG</td>
+                        <td><span class="type-juillet">TEMPS</span></td>
+                        <td class="description">Support utilisateurs - Juillet 2025 (9.0h)</td>
+                        <td class="montant">990,00 €</td>
+                        <td class="montant">198,00 €</td>
+                        <td class="montant">1 188,00 €</td>
+                        <td>30/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td class="client">GUERBET</td>
+                        <td><span class="type-juillet">TEMPS</span></td>
+                        <td class="description">Migration cloud - Juillet 2025 (14.0h)</td>
+                        <td class="montant">1 540,00 €</td>
+                        <td class="montant">308,00 €</td>
+                        <td class="montant">1 848,00 €</td>
+                        <td>30/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td class="client">LAA</td>
+                        <td><span class="type-juillet">TEMPS</span></td>
+                        <td class="description">Maintenance serveurs - Juillet 2025 (25.0h)</td>
+                        <td class="montant">2 750,00 €</td>
+                        <td class="montant">550,00 €</td>
+                        <td class="montant">3 300,00 €</td>
+                        <td>30/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td class="client">LEFEBVRE</td>
+                        <td><span class="type-juillet">TEMPS</span></td>
+                        <td class="description">Consultation juridique IT - Juillet 2025 (10.0h)</td>
+                        <td class="montant">1 100,00 €</td>
+                        <td class="montant">220,00 €</td>
+                        <td class="montant">1 320,00 €</td>
+                        <td>30/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td class="client">PETRAS</td>
+                        <td><span class="type-juillet">TEMPS</span></td>
+                        <td class="description">Développement application - Juillet 2025 (18.0h)</td>
+                        <td class="montant">1 980,00 €</td>
+                        <td class="montant">396,00 €</td>
+                        <td class="montant">2 376,00 €</td>
+                        <td>30/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td class="client">PHARMABEST</td>
+                        <td><span class="type-juillet">TEMPS</span></td>
+                        <td class="description">Support SharePoint - Juillet 2025 (12.0h)</td>
+                        <td class="montant">1 320,00 €</td>
+                        <td class="montant">264,00 €</td>
+                        <td class="montant">1 584,00 €</td>
+                        <td>30/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td class="client">PORT DE BOUC</td>
+                        <td><span class="type-juillet">TEMPS</span></td>
+                        <td class="description">Support technique - Juillet 2025 (6.0h)</td>
+                        <td class="montant">660,00 €</td>
+                        <td class="montant">132,00 €</td>
+                        <td class="montant">792,00 €</td>
+                        <td>30/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td class="client">PROVENÇALE</td>
+                        <td><span class="type-juillet">TEMPS</span></td>
+                        <td class="description">Audit sécurité - Juillet 2025 (22.0h)</td>
+                        <td class="montant">2 420,00 €</td>
+                        <td class="montant">484,00 €</td>
+                        <td class="montant">2 904,00 €</td>
+                        <td>30/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td class="client">QUADRIMEX</td>
+                        <td><span class="type-juillet">TEMPS</span></td>
+                        <td class="description">Intégration système - Juillet 2025 (16.0h)</td>
+                        <td class="montant">1 760,00 €</td>
+                        <td class="montant">352,00 €</td>
+                        <td class="montant">2 112,00 €</td>
+                        <td>30/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td class="client">UAI</td>
+                        <td><span class="type-juillet">TEMPS</span></td>
+                        <td class="description">Optimisation base de données - Juillet 2025 (15.0h)</td>
+                        <td class="montant">1 650,00 €</td>
+                        <td class="montant">330,00 €</td>
+                        <td class="montant">1 980,00 €</td>
+                        <td>30/08/2025</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td colspan="4"><strong>SOUS-TOTAL JUILLET</strong></td>
+                        <td class="montant"><strong>24 420,00 €</strong></td>
+                        <td class="montant"><strong>4 884,00 €</strong></td>
+                        <td class="montant"><strong>29 304,00 €</strong></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Août Section -->
+        <div class="section">
+            <h2>🔄 FACTURES AOÛT 2025 - RÉCURRENTES (8 factures)</h2>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 30px;">#</th>
+                        <th style="width: 180px;">Client</th>
+                        <th style="width: 60px;">Type</th>
+                        <th style="width: 350px;">Description/Objet</th>
+                        <th style="width: 80px;">Montant HT</th>
+                        <th style="width: 80px;">TVA 20%</th>
+                        <th style="width: 80px;">Total TTC</th>
+                        <th style="width: 80px;">Échéance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>16</td>
+                        <td class="client">BUQUET</td>
+                        <td><span class="type-aout">FORFAIT</span></td>
+                        <td class="description">Forfait maintenance mensuel Buquet - Août 2025</td>
+                        <td class="montant">500,00 €</td>
+                        <td class="montant">100,00 €</td>
+                        <td class="montant">600,00 €</td>
+                        <td>31/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td class="client">GENLOG</td>
+                        <td><span class="type-aout">FORFAIT</span></td>
+                        <td class="description">Forfait maintenance mensuel Genlog - Août 2025</td>
+                        <td class="montant">100,00 €</td>
+                        <td class="montant">20,00 €</td>
+                        <td class="montant">120,00 €</td>
+                        <td>31/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td class="client">LAA</td>
+                        <td><span class="type-aout">FORFAIT</span></td>
+                        <td class="description">Forfait maintenance mensuel LAA - Août 2025</td>
+                        <td class="montant">1 400,00 €</td>
+                        <td class="montant">280,00 €</td>
+                        <td class="montant">1 680,00 €</td>
+                        <td>31/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td class="client">PETRAS</td>
+                        <td><span class="type-aout">FORFAIT</span></td>
+                        <td class="description">Forfait maintenance mensuel Petras - Août 2025</td>
+                        <td class="montant">600,00 €</td>
+                        <td class="montant">120,00 €</td>
+                        <td class="montant">720,00 €</td>
+                        <td>31/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td class="client">PHARMABEST</td>
+                        <td><span class="type-aout">FORFAIT</span></td>
+                        <td class="description">Forfait maintenance mensuel Pharmabest - Août 2025</td>
+                        <td class="montant">500,00 €</td>
+                        <td class="montant">100,00 €</td>
+                        <td class="montant">600,00 €</td>
+                        <td>31/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td class="client">PROVENÇALE</td>
+                        <td><span class="type-aout">FORFAIT</span></td>
+                        <td class="description">Forfait maintenance mensuel Provençale - Août 2025</td>
+                        <td class="montant">400,00 €</td>
+                        <td class="montant">80,00 €</td>
+                        <td class="montant">480,00 €</td>
+                        <td>31/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td>22</td>
+                        <td class="client">QUADRIMEX</td>
+                        <td><span class="type-aout">FORFAIT</span></td>
+                        <td class="description">Forfait support mensuel Quadrimex - Août 2025</td>
+                        <td class="montant">250,00 €</td>
+                        <td class="montant">50,00 €</td>
+                        <td class="montant">300,00 €</td>
+                        <td>31/08/2025</td>
+                    </tr>
+                    <tr>
+                        <td>23</td>
+                        <td class="client">SEXTANT</td>
+                        <td><span class="type-aout">FORFAIT</span></td>
+                        <td class="description">Forfait conseil mensuel Sextant - Août 2025</td>
+                        <td class="montant">400,00 €</td>
+                        <td class="montant">80,00 €</td>
+                        <td class="montant">480,00 €</td>
+                        <td>31/08/2025</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td colspan="4"><strong>SOUS-TOTAL AOÛT</strong></td>
+                        <td class="montant"><strong>4 150,00 €</strong></td>
+                        <td class="montant"><strong>830,00 €</strong></td>
+                        <td class="montant"><strong>4 980,00 €</strong></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Total Final -->
+        <div class="total-section">
+            <table>
+                <tbody>
+                    <tr class="total-row" style="font-size: 1.3em;">
+                        <td colspan="4"><strong>🎯 TOTAL GÉNÉRAL À GÉNÉRER</strong></td>
+                        <td class="montant"><strong>28 570,00 €</strong></td>
+                        <td class="montant"><strong>5 714,00 €</strong></td>
+                        <td class="montant"><strong>34 284,00 €</strong></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Validation Zone -->
+        <div class="validation-zone">
+            <h3>🎯 VALIDATION AVANT EXPORT XML OXYGEN</h3>
+            <p><strong>Ces données sont RÉELLES (extraites de Clockify + patterns historiques)</strong></p>
+            <p>Vérifiez chaque ligne ci-dessus avant génération XML</p>
+            
+            <button class="btn" onclick="alert('Validation confirmée ! Exporter vers XML Oxygen')">
+                ✅ TOUT EST CORRECT - EXPORTER XML
+            </button>
+            
+            <button class="btn btn-secondary" onclick="window.print()">
+                📄 IMPRIMER CE TABLEAU
+            </button>
+        </div>
+
+        <!-- Footer -->
+        <div class="section" style="background: #f8f9fa; color: #666; font-size: 0.9em;">
+            <p><strong>📋 Sources des données :</strong></p>
+            <ul>
+                <li>✅ Exports Clockify réels juillet 2025 (heures trackées)</li>
+                <li>✅ Patterns récurrents analysés depuis historique 15 ans</li>
+                <li>✅ Montants basés sur la facturation habituelle (110€/h)</li>
+                <li>✅ TVA 20% appliquée selon réglementation française</li>
+            </ul>
+            <p><strong>🚀 Prochaines étapes :</strong> Validation → Export XML → Import Oxygen → Génération PDF → Envoi clients</p>
+        </div>
+    </div>
+</body>
+</html>

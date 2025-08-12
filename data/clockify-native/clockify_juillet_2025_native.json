@@ -1,0 +1,1672 @@
+{
+  "Test": {
+    "total_hours": 11.503611111111109,
+    "tasks": {
+      "Développements": 7.815555555555556,
+      "Prestations générales": 3.6880555555555556
+    },
+    "users": {
+      "hugo.joucla": 11.503611111111109
+    },
+    "project_name": "Test",
+    "entries_count": 4,
+    "entries": [
+      {
+        "date": "2025-07-31",
+        "description": "Recherche de solution pour Claude Code : Chat et interface Web",
+        "minutes": 208.03333333333333,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-30",
+        "description": "Zabbix avec claude et finalisation des compte utilisateurs sur le 2022 SLX",
+        "minutes": 221.28333333333333,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-28",
+        "description": "Recherche de solution pour Claude Code : Chat et interface Web",
+        "minutes": 211.21666666666667,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-28",
+        "description": "Recherche de solution pour Claude Code : Chat et interface Web",
+        "minutes": 49.68333333333333,
+        "user": "hugo.joucla",
+        "task": "General"
+      }
+    ]
+  },
+  "PHARMABEST": {
+    "total_hours": 5.534722222222222,
+    "tasks": {
+      "HardenAD": 3.1191666666666666,
+      "Prestations générales": 2.4155555555555557
+    },
+    "users": {
+      "Romain BASTIEN": 5.534722222222222
+    },
+    "project_name": "PHARMABEST - Maintenance hors forfait",
+    "entries_count": 20,
+    "entries": [
+      {
+        "date": "2025-07-31",
+        "description": "PHARMABEST - Dépannage adhérents",
+        "minutes": 11.916666666666666,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-31",
+        "description": "PHARMABEST - Dépannage adhérents",
+        "minutes": 10.016666666666667,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-29",
+        "description": "PHARMABEST - Bérénice - Export annuaire",
+        "minutes": 18.2,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-28",
+        "description": "PHARMABEST - Dépannage adhérents",
+        "minutes": 10.266666666666667,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-25",
+        "description": "PHARMABEST - Alain - Traduction de mails automatiquement",
+        "minutes": 22.883333333333333,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-21",
+        "description": "PHARMABEST - Alain - Traduction de mails automatiquement",
+        "minutes": 16.583333333333332,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-18",
+        "description": "PHARMABEST - Alain - Lenteurs PC",
+        "minutes": 1.5,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-18",
+        "description": "PHARMABEST - Dépannage adhérents",
+        "minutes": 24.183333333333334,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-17",
+        "description": "PHARMABEST - Dépannage adhérents",
+        "minutes": 7.45,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-17",
+        "description": "PHARMABEST - Coralie - Fichiers déplacés dans Groupe Pharmabest",
+        "minutes": 5.0,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-15",
+        "description": "PHARMABEST - Dépannage adhérents",
+        "minutes": 28.683333333333334,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-11",
+        "description": "PHARMABEST - Création compte Espagne",
+        "minutes": 6.35,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-11",
+        "description": "PHARMABEST - Caroline - Erreurs synchro OneDrive",
+        "minutes": 15.183333333333334,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-07",
+        "description": "PHARMABEST - Eric Fernandes - Accès Intranet et Groupe Pharmabest",
+        "minutes": 11.7,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-04",
+        "description": "PHARMABEST - Mise en place droits Groupe Pharmabest",
+        "minutes": 10.116666666666667,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-04",
+        "description": "PHARMABEST - Dépannage adhérents",
+        "minutes": 2.1,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-04",
+        "description": "PHARMABEST - Mise en place droits Groupe Pharmabest",
+        "minutes": 10.5,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-03",
+        "description": "PHARMABEST - Dépannage adhérents",
+        "minutes": 53.06666666666667,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-02",
+        "description": "PHARMABEST - Réunion Espagne avec Gabriel",
+        "minutes": 30.0,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-01",
+        "description": "PHARMABEST - Mise en place droits Groupe Pharmabest",
+        "minutes": 36.38333333333333,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      }
+    ]
+  },
+  "Check RDS / SQL / sauvegardes Veeam / réplications Hyper-V": {
+    "total_hours": 22.382777777777775,
+    "tasks": {
+      "Prestations générales": 19.049444444444443,
+      "Tests automatisés": 3.3333333333333335
+    },
+    "users": {
+      "Romain BASTIEN": 22.382777777777775
+    },
+    "project_name": "Check RDS / SQL / sauvegardes Veeam / réplications Hyper-V",
+    "entries_count": 22,
+    "entries": [
+      {
+        "date": "2025-07-31",
+        "description": "SYAGA - Verif sauvegardes / réplications",
+        "minutes": 48.71666666666667,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-30",
+        "description": "SYAGA - Test Claude + Erreurs sauvegardes Veeam365 SYAGA",
+        "minutes": 200.0,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-29",
+        "description": "SYAGA - Verif sauvegardes / réplications",
+        "minutes": 131.3,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-28",
+        "description": "SYAGA - Verif sauvegardes / réplications",
+        "minutes": 40.5,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-25",
+        "description": "SYAGA - Renouvellement Veeam365",
+        "minutes": 31.133333333333333,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-25",
+        "description": "SYAGA - Verif sauvegardes / réplications",
+        "minutes": 10.633333333333333,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-24",
+        "description": "SYAGA - Verif sauvegardes / réplications",
+        "minutes": 13.683333333333334,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-23",
+        "description": "SYAGA - Verif sauvegardes / réplications",
+        "minutes": 37.483333333333334,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-22",
+        "description": "SYAGA - Verif sauvegardes / réplications",
+        "minutes": 70.0,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-21",
+        "description": "SYAGA - Verif sauvegardes / réplications",
+        "minutes": 140.1,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-18",
+        "description": "SYAGA - Verif sauvegardes / réplications",
+        "minutes": 68.23333333333333,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-17",
+        "description": "SYAGA - Verif sauvegardes / réplications",
+        "minutes": 53.25,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-17",
+        "description": "SYAGA - Verif sauvegardes / réplications",
+        "minutes": 85.7,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-16",
+        "description": "SYAGA - Verif sauvegardes / réplications",
+        "minutes": 29.683333333333334,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-15",
+        "description": "SYAGA - Verif sauvegardes / réplications",
+        "minutes": 54.016666666666666,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-15",
+        "description": "SYAGA - Verif sauvegardes / réplications",
+        "minutes": 10.233333333333333,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-10",
+        "description": "SYAGA - Verif sauvegardes / réplications",
+        "minutes": 26.95,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-07",
+        "description": "SYAGA - Verif sauvegardes / réplications",
+        "minutes": 172.26666666666668,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-03",
+        "description": "SYAGA - Verif sauvegardes / réplications",
+        "minutes": 31.3,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-02",
+        "description": "SYAGA - Verif sauvegardes / réplications",
+        "minutes": 31.766666666666666,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-02",
+        "description": "SYAGA - Verif sauvegardes / réplications",
+        "minutes": 35.016666666666666,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-01",
+        "description": "SYAGA - Verif sauvegardes / réplications",
+        "minutes": 21.0,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      }
+    ]
+  },
+  "LAA": {
+    "total_hours": 62.69972222222222,
+    "tasks": {
+      "SQL Server": 20.325,
+      "Développements": 2.794166666666667,
+      "Tests automatisés": 32.55694444444445,
+      "Prestations générales": 6.779999999999999,
+      "Support technique": 0.2436111111111111
+    },
+    "users": {
+      "hugo.joucla": 39.15861111111111,
+      "Sebastien Questier": 21.5,
+      "Romain BASTIEN": 2.0411111111111113
+    },
+    "project_name": "LAA - SLX Développement",
+    "entries_count": 34,
+    "entries": [
+      {
+        "date": "2025-07-31",
+        "description": "SLX rajout de la zone commentaire, partit SQL avec Claude",
+        "minutes": 214.01666666666668,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-30",
+        "description": "SLX amélioration de la stabilités sur Windows server 2022",
+        "minutes": 217.75,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-29",
+        "description": "SLX amélioration de la stabilités sur Windows server 2022",
+        "minutes": 202.3,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-29",
+        "description": "SLX amélioration de la stabilités sur Windows server 2022",
+        "minutes": 199.7,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-28",
+        "description": "Wazuh regex décodeur, mise à jour des Wazuh",
+        "minutes": 167.65,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-25",
+        "description": "SLX amélioration de la stabilités sur Windows server 2022",
+        "minutes": 206.63333333333333,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-25",
+        "description": "SLX test stabilité Windows 2022",
+        "minutes": 211.0,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-24",
+        "description": "Tests finaux validation SLX sur infrastructure 2022 - Rapport compatibilité",
+        "minutes": 90.0,
+        "user": "Sebastien Questier",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-24",
+        "description": "SLX rajout de la zone commentaire, partit SQL",
+        "minutes": 39.1,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-24",
+        "description": "SLX rajout de la zone commentaire vu avec Bruno Meunier",
+        "minutes": 77.01666666666667,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-23",
+        "description": "SLX rajout de la zone commentaire vu avec Bruno Meunier",
+        "minutes": 202.93333333333334,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-23",
+        "description": "Test Passage V12 Sage",
+        "minutes": 33.733333333333334,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-22",
+        "description": "Test Passage V12 Sage",
+        "minutes": 207.13333333333333,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-22",
+        "description": "Test Passage V12 Sage",
+        "minutes": 17.816666666666666,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-19",
+        "description": "Tests montée complète infrastructure - Windows 2022 + SQL 2022 + RDS",
+        "minutes": 168.0,
+        "user": "Sebastien Questier",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-18",
+        "description": "LAA - Benoit BOURAS - Changement de téléphone",
+        "minutes": 11.4,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-17",
+        "description": "Tests SQL Server 2025 Preview - Évaluation compatibilité future SLX",
+        "minutes": 102.0,
+        "user": "Sebastien Questier",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-16",
+        "description": "LAA - OpenBee - Facture non passées - Aide support Konica",
+        "minutes": 14.616666666666667,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-16",
+        "description": "SLX erreur dans la liste des commandes résolue et test Sage V11",
+        "minutes": 118.73333333333333,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-16",
+        "description": "LAA - Fin configuration PC portable Benoit BOURAS",
+        "minutes": 16.483333333333334,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-15",
+        "description": "Contact avec Bruno MEUNIER pour présentation et investigation sur erreur dans SLX après migration SQL 2019",
+        "minutes": 140.0,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-15",
+        "description": "Test sur SLX migration en V11",
+        "minutes": 75.0,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-15",
+        "description": "Tests RDS Windows 2022 - Validation environnement multi-utilisateurs SLX",
+        "minutes": 132.0,
+        "user": "Sebastien Questier",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-15",
+        "description": "Appel téléphonique avec Jean-Paul pour problème de Wifi",
+        "minutes": 19.0,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-12",
+        "description": "Tests montée .NET Framework 4.8 sur Windows 2022 - Validation SLX",
+        "minutes": 108.0,
+        "user": "Sebastien Questier",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-11",
+        "description": "LAA - Olivier LOAREC - Réglage imprimante après changement de box",
+        "minutes": 50.0,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-11",
+        "description": "LAA - Elodie MORIN - Plus d'internet à distance, paramétrage du partage de connexion",
+        "minutes": 19.483333333333334,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-09",
+        "description": "Tests compatibilité Windows 2022 + SQL 2022 - Validation intégrité données",
+        "minutes": 150.0,
+        "user": "Sebastien Questier",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-08",
+        "description": "Tests SQL Server 2022 - Validation index et procédures stockées SLX",
+        "minutes": 90.0,
+        "user": "Sebastien Questier",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-04",
+        "description": "LAA - OpenBee - Facture non passées",
+        "minutes": 1.65,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-04",
+        "description": "LAA - OpenBee - Facture non passées",
+        "minutes": 8.833333333333334,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-03",
+        "description": "Tests RDS 2022 - Configuration session utilisateur et licence TS",
+        "minutes": 120.0,
+        "user": "Sebastien Questier",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-02",
+        "description": "Tests montée Windows Server 2022 - Validation services SLX et performances",
+        "minutes": 180.0,
+        "user": "Sebastien Questier",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-01",
+        "description": "Tests compatibilité SQL Server 2019 avec SLX - Validation requêtes critiques",
+        "minutes": 150.0,
+        "user": "Sebastien Questier",
+        "task": "General"
+      }
+    ]
+  },
+  "ART INFORMATIQUE - Maintenance hors forfait": {
+    "total_hours": 0.4516666666666667,
+    "tasks": {
+      "Prestations générales": 0.4516666666666667
+    },
+    "users": {
+      "Romain BASTIEN": 0.4516666666666667
+    },
+    "project_name": "ART INFORMATIQUE - Maintenance hors forfait",
+    "entries_count": 1,
+    "entries": [
+      {
+        "date": "2025-07-29",
+        "description": "ART INFO - Farbos - Script planification réplications Hyper-V",
+        "minutes": 27.1,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      }
+    ]
+  },
+  "PETRAS - Maintenance hors forfait": {
+    "total_hours": 0.42055555555555557,
+    "tasks": {
+      "Prestations générales": 0.42055555555555557
+    },
+    "users": {
+      "Romain BASTIEN": 0.42055555555555557
+    },
+    "project_name": "PETRAS - Maintenance hors forfait",
+    "entries_count": 3,
+    "entries": [
+      {
+        "date": "2025-07-29",
+        "description": "PETRAS - Loïc - Lenteurs Outlook",
+        "minutes": 8.133333333333333,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-29",
+        "description": "PETRAS - Loïc - Problème imprimante",
+        "minutes": 10.25,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-08",
+        "description": "PETRAS - Acces serveur Hardinge",
+        "minutes": 6.85,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      }
+    ]
+  },
+  "Centreon": {
+    "total_hours": 10.964166666666667,
+    "tasks": {
+      "Prestations générales": 10.964166666666667
+    },
+    "users": {
+      "Romain BASTIEN": 10.964166666666667
+    },
+    "project_name": "Centreon",
+    "entries_count": 6,
+    "entries": [
+      {
+        "date": "2025-07-28",
+        "description": "SYAGA - Zabbix LAA OGS",
+        "minutes": 34.46666666666667,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-25",
+        "description": "SYAGA - Zabbix",
+        "minutes": 192.0,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-25",
+        "description": "SYAGA - Zabbix chez Provencale",
+        "minutes": 54.55,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-24",
+        "description": "SYAGA - Zabbix chez Provencale",
+        "minutes": 175.2,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-16",
+        "description": "SYAGA - Ajout OpenID Connect Zabbix + Monitoring proxys",
+        "minutes": 128.66666666666666,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-16",
+        "description": "SYAGA - Maj Zabbix",
+        "minutes": 72.96666666666667,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      }
+    ]
+  },
+  "FARBOS - Maintenance hors forfait": {
+    "total_hours": 0.39444444444444443,
+    "tasks": {
+      "Prestations générales": 0.39444444444444443
+    },
+    "users": {
+      "Romain BASTIEN": 0.39444444444444443
+    },
+    "project_name": "FARBOS - Maintenance hors forfait",
+    "entries_count": 2,
+    "entries": [
+      {
+        "date": "2025-07-28",
+        "description": "FARBOS - Hugues - Problème réplication sur site distant - Débit limité à Auch",
+        "minutes": 15.0,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-18",
+        "description": "FARBOS - Hugues - Problème réplication sur site distant",
+        "minutes": 8.666666666666666,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      }
+    ]
+  },
+  "LAA MAROC": {
+    "total_hours": 1.2716666666666663,
+    "tasks": {
+      "Prestations générales": 1.2716666666666663
+    },
+    "users": {
+      "Romain BASTIEN": 1.2716666666666663
+    },
+    "project_name": "LAA MAROC - Maintenance hors forfait",
+    "entries_count": 5,
+    "entries": [
+      {
+        "date": "2025-07-28",
+        "description": "LAA MAROC - Réglages IDRAC",
+        "minutes": 2.55,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-28",
+        "description": "LAA MAROC - Salim - Outlook planté",
+        "minutes": 40.53333333333333,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-25",
+        "description": "LAA MAROC - Salim - Outlook planté",
+        "minutes": 18.766666666666666,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-25",
+        "description": "LAA MAROC - Salim - Outlook planté",
+        "minutes": 3.816666666666667,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-07",
+        "description": "LAA MAROC - Hicham - Accès depuis l'Espagne",
+        "minutes": 10.633333333333333,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      }
+    ]
+  },
+  "LA PROVENCALE - Maintenance forfaitaire": {
+    "total_hours": 1.1333333333333333,
+    "tasks": {
+      "Prestations générales": 1.1333333333333333
+    },
+    "users": {
+      "Romain BASTIEN": 1.1333333333333333
+    },
+    "project_name": "LA PROVENCALE - Maintenance forfaitaire",
+    "entries_count": 2,
+    "entries": [
+      {
+        "date": "2025-07-28",
+        "description": "PROVENCALE - Problème réplications",
+        "minutes": 42.0,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-04",
+        "description": "PROVENCALE - Manque de place sur FR-BRG-HOST01",
+        "minutes": 26.0,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      }
+    ]
+  },
+  "Forfait": {
+    "total_hours": 2.443611111111111,
+    "tasks": {
+      "Prestations générales": 2.2394444444444446,
+      "Développements": 0.20416666666666666
+    },
+    "users": {
+      "Romain BASTIEN": 2.443611111111111
+    },
+    "project_name": "Forfait",
+    "entries_count": 9,
+    "entries": [
+      {
+        "date": "2025-07-25",
+        "description": "BUQUET - Serveur RDS inaccessible",
+        "minutes": 1.2166666666666666,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-25",
+        "description": "BUQUET - Serveur RDS inaccessible",
+        "minutes": 2.1166666666666667,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-23",
+        "description": "BUQUET - Mail pour Niort Freres",
+        "minutes": 24.0,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-22",
+        "description": "BUQUET - Mail pour Niort Freres",
+        "minutes": 21.833333333333332,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-15",
+        "description": "BUQUET - Plus d'alarme",
+        "minutes": 36.0,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-11",
+        "description": "BUQUET - Plus d'alarme",
+        "minutes": 7.9,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-08",
+        "description": "BUQUET - Pauline - DHCP platine provenant du Grandstream",
+        "minutes": 22.0,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-04",
+        "description": "BUQUET - Failover Starlink",
+        "minutes": 19.3,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-01",
+        "description": "BUQUET - Céline - Code PIN + Authenticator",
+        "minutes": 12.25,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      }
+    ]
+  },
+  "SQL/X3": {
+    "total_hours": 13.520833333333334,
+    "tasks": {
+      "Prestations générales": 13.520833333333334
+    },
+    "users": {
+      "hugo.joucla": 13.520833333333334
+    },
+    "project_name": "SQL/X3",
+    "entries_count": 5,
+    "entries": [
+      {
+        "date": "2025-07-24",
+        "description": "UAI Recherche blocage sur les derniers jours avec claude",
+        "minutes": 215.0,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-21",
+        "description": "UAI Recherche blocage sur les derniers jours avec claude",
+        "minutes": 216.73333333333332,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-17",
+        "description": "UAI Recherche blocage à 8H00 avec claude",
+        "minutes": 50.11666666666667,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-17",
+        "description": "UAI Recherche blocage à 8H00",
+        "minutes": 107.76666666666667,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-11",
+        "description": "UAI Découverte",
+        "minutes": 221.63333333333333,
+        "user": "hugo.joucla",
+        "task": "General"
+      }
+    ]
+  },
+  "SYAGA CONSULTING - Maintenance": {
+    "total_hours": 5.89,
+    "tasks": {
+      "Prestations générales": 5.89
+    },
+    "users": {
+      "Romain BASTIEN": 5.89
+    },
+    "project_name": "SYAGA CONSULTING - Maintenance",
+    "entries_count": 4,
+    "entries": [
+      {
+        "date": "2025-07-24",
+        "description": "SYAGA - Windows Updates",
+        "minutes": 37.266666666666666,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-24",
+        "description": "SYAGA - Windows Updates",
+        "minutes": 108.85,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-10",
+        "description": "SYAGA - Windows Updates",
+        "minutes": 178.28333333333333,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-08",
+        "description": "SYAGA - Villa-Data - Plus internet",
+        "minutes": 29.0,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      }
+    ]
+  },
+  "R&D": {
+    "total_hours": 5.946111111111111,
+    "tasks": {
+      "Prestations générales": 5.578055555555555,
+      "Développements": 0.3680555555555555
+    },
+    "users": {
+      "Romain BASTIEN": 5.946111111111111
+    },
+    "project_name": "R&D",
+    "entries_count": 6,
+    "entries": [
+      {
+        "date": "2025-07-24",
+        "description": "SYAGA - Wazuh",
+        "minutes": 46.733333333333334,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-22",
+        "description": "SYAGA - Projet Windows Update avec Loan",
+        "minutes": 66.5,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-22",
+        "description": "SYAGA - Projet Windows Update avec Loan",
+        "minutes": 40.0,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-18",
+        "description": "SYAGA - Wazuh",
+        "minutes": 94.45,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-17",
+        "description": "SYAGA - Devolutions Server",
+        "minutes": 22.083333333333332,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-15",
+        "description": "SYAGA - Projet Windows Update avec Loan",
+        "minutes": 87.0,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      }
+    ]
+  },
+  "TESTS": {
+    "total_hours": 3.300555555555556,
+    "tasks": {
+      "Développements": 1.6791666666666667,
+      "Prestations générales": 1.6213888888888888
+    },
+    "users": {
+      "hugo.joucla": 3.300555555555556
+    },
+    "project_name": "TESTS",
+    "entries_count": 3,
+    "entries": [
+      {
+        "date": "2025-07-24",
+        "description": "Wazuh regex décodeur",
+        "minutes": 100.75,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-17",
+        "description": "Développement du site Web SYAGA.FR",
+        "minutes": 17.616666666666667,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-16",
+        "description": "Développement du site Web SYAGA.FR",
+        "minutes": 79.66666666666667,
+        "user": "hugo.joucla",
+        "task": "General"
+      }
+    ]
+  },
+  "FARSY": {
+    "total_hours": 0.4666666666666667,
+    "tasks": {
+      "Prestations générales": 0.4666666666666667
+    },
+    "users": {
+      "Romain BASTIEN": 0.4666666666666667
+    },
+    "project_name": "FARSY",
+    "entries_count": 1,
+    "entries": [
+      {
+        "date": "2025-07-23",
+        "description": "FARSY - Visio pour factures autodistribution",
+        "minutes": 28.0,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      }
+    ]
+  },
+  "SLX refactorisation": {
+    "total_hours": 47.150000000000006,
+    "tasks": {
+      "Prestations générales": 35.93083333333334,
+      "HardenAD": 6.621944444444444,
+      "Support technique": 4.597222222222222
+    },
+    "users": {
+      "hugo.joucla": 47.150000000000006
+    },
+    "project_name": "SLX refactorisation",
+    "entries_count": 17,
+    "entries": [
+      {
+        "date": "2025-07-23",
+        "description": "Rajout des noms sur les Plugins de SLX, cartographie",
+        "minutes": 18.15,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-23",
+        "description": "Rajout des noms sur les Plugins de SLX, cartographie",
+        "minutes": 180.31666666666666,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-22",
+        "description": "SLX nom des plugins visible dans Sale Logix",
+        "minutes": 43.71666666666667,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-21",
+        "description": "SLX Création des dossiers par date et optimisation de la base de donnée",
+        "minutes": 211.0,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-18",
+        "description": "SLX identification et optimisation de la base de donnée",
+        "minutes": 206.0,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-18",
+        "description": "SLX traitement des upload qui satture création de plusieurs dossiers",
+        "minutes": 208.0,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-17",
+        "description": "SLX traitement des upload qui satture",
+        "minutes": 189.31666666666666,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-17",
+        "description": "Réunion avec Bruno Meunier",
+        "minutes": 49.0,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-16",
+        "description": "SLX erreur dans la liste des commandes en cours de résolution",
+        "minutes": 221.6,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-10",
+        "description": "SLX Développement",
+        "minutes": 204.3,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-09",
+        "description": "SLX Développement",
+        "minutes": 196.91666666666666,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-09",
+        "description": "SLX Développement",
+        "minutes": 200.71666666666667,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-08",
+        "description": "SLX Développement",
+        "minutes": 207.4,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-07",
+        "description": "SLX Développement",
+        "minutes": 210.36666666666667,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-03",
+        "description": "SLX Développement",
+        "minutes": 206.36666666666667,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-02",
+        "description": "SLX Développement & Support",
+        "minutes": 56.833333333333336,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-01",
+        "description": "SLX Développement & Support",
+        "minutes": 219.0,
+        "user": "hugo.joucla",
+        "task": "General"
+      }
+    ]
+  },
+  "PROVENCALE - Migration Serveurs 2025": {
+    "total_hours": 13.01361111111111,
+    "tasks": {
+      "Prestations générales": 13.01361111111111
+    },
+    "users": {
+      "Romain BASTIEN": 13.01361111111111
+    },
+    "project_name": "PROVENCALE - Migration Serveurs 2025",
+    "entries_count": 14,
+    "entries": [
+      {
+        "date": "2025-07-23",
+        "description": "PROVENCALE - Migration serveurs",
+        "minutes": 126.63333333333334,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-11",
+        "description": "PROVENCALE - Migration serveurs",
+        "minutes": 76.3,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-11",
+        "description": "PROVENCALE - Migration serveurs",
+        "minutes": 95.63333333333334,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-11",
+        "description": "PROVENCALE - Migration serveurs",
+        "minutes": 28.75,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-10",
+        "description": "PROVENCALE - Migration serveurs",
+        "minutes": 15.416666666666666,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-09",
+        "description": "PROVENCALE - Migration serveurs",
+        "minutes": 118.23333333333333,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-09",
+        "description": "PROVENCALE - Migration serveurs",
+        "minutes": 36.03333333333333,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-09",
+        "description": "PROVENCALE - Migration serveurs",
+        "minutes": 20.666666666666668,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-09",
+        "description": "PROVENCALE - Migration serveurs",
+        "minutes": 91.06666666666666,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-08",
+        "description": "PROVENCALE - Migration serveurs",
+        "minutes": 56.15,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-08",
+        "description": "PROVENCALE - Migration serveurs",
+        "minutes": 26.183333333333334,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-08",
+        "description": "PROVENCALE - Migration serveurs",
+        "minutes": 32.75,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-07",
+        "description": "PROVENCALE - Migration serveurs",
+        "minutes": 19.1,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-07",
+        "description": "PROVENCALE - Migration serveurs",
+        "minutes": 37.9,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      }
+    ]
+  },
+  "PETRAS - Maintenance forfaitaire": {
+    "total_hours": 1.3219444444444444,
+    "tasks": {
+      "Prestations générales": 1.2802777777777776,
+      "SQL Server": 0.041666666666666664
+    },
+    "users": {
+      "Romain BASTIEN": 1.3219444444444444
+    },
+    "project_name": "PETRAS - Maintenance forfaitaire",
+    "entries_count": 4,
+    "entries": [
+      {
+        "date": "2025-07-22",
+        "description": "PETRAS - Point BODET",
+        "minutes": 16.1,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-15",
+        "description": "PETRAS - Plantage PETRAS-SQL2016",
+        "minutes": 2.5,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-08",
+        "description": "PETRAS - Panne internet",
+        "minutes": 42.06666666666667,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-02",
+        "description": "PETRAS - Modification DHCP car mauvais DNS",
+        "minutes": 18.65,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      }
+    ]
+  },
+  "Support": {
+    "total_hours": 40.293888888888894,
+    "tasks": {
+      "Prestations générales": 15.55,
+      "Support technique": 20.90388888888889,
+      "Développements": 3.8400000000000003
+    },
+    "users": {
+      "hugo.joucla": 40.293888888888894
+    },
+    "project_name": "Support",
+    "entries_count": 12,
+    "entries": [
+      {
+        "date": "2025-07-22",
+        "description": "Mise au propre sur documentation SLX journée du 21/07/2025",
+        "minutes": 154.56666666666666,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-15",
+        "description": "Zabbix, finalisation Windows Update & Traitements de tickets.",
+        "minutes": 184.8,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-11",
+        "description": "Support",
+        "minutes": 170.0,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-10",
+        "description": "Documentation de SLX",
+        "minutes": 222.41666666666666,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-08",
+        "description": "SLX",
+        "minutes": 215.75,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-07",
+        "description": "Support et Doc",
+        "minutes": 218.4,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-04",
+        "description": "Support",
+        "minutes": 216.2,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-04",
+        "description": "Support",
+        "minutes": 216.2,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-03",
+        "description": "Préparation Mairie de la crau & Support",
+        "minutes": 221.75,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-02",
+        "description": "Préparation Mairie de la crau",
+        "minutes": 155.46666666666667,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-02",
+        "description": "Support",
+        "minutes": 211.68333333333334,
+        "user": "hugo.joucla",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-01",
+        "description": "Support et SLX REPRISE DEV",
+        "minutes": 230.4,
+        "user": "hugo.joucla",
+        "task": "General"
+      }
+    ]
+  },
+  "Mairie de la Destrousse": {
+    "total_hours": 2.4655555555555555,
+    "tasks": {
+      "Prestations générales": 2.4655555555555555
+    },
+    "users": {
+      "Romain BASTIEN": 2.4655555555555555
+    },
+    "project_name": "Mairie de la Destrousse",
+    "entries_count": 4,
+    "entries": [
+      {
+        "date": "2025-07-21",
+        "description": "DESTROUSSE - Documentation",
+        "minutes": 24.333333333333332,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-21",
+        "description": "DESTROUSSE - Documentation",
+        "minutes": 101.71666666666667,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-09",
+        "description": "DESTROUSSE - Changement firewall",
+        "minutes": 9.8,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-09",
+        "description": "DESTROUSSE - Changement firewall",
+        "minutes": 12.083333333333334,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      }
+    ]
+  },
+  "LEFEBVRE (AVOCATE) - Maintenance hors forfait": {
+    "total_hours": 0.16083333333333333,
+    "tasks": {
+      "Prestations générales": 0.16083333333333333
+    },
+    "users": {
+      "Romain BASTIEN": 0.16083333333333333
+    },
+    "project_name": "LEFEBVRE (AVOCATE) - Maintenance hors forfait",
+    "entries_count": 1,
+    "entries": [
+      {
+        "date": "2025-07-21",
+        "description": "LEFEBVRE - Renouvellement OVH manuel après opposition de carte bancaire",
+        "minutes": 9.65,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      }
+    ]
+  },
+  "GENLOG - Maintenance forfaitaire": {
+    "total_hours": 0.22027777777777777,
+    "tasks": {
+      "Prestations générales": 0.22027777777777777
+    },
+    "users": {
+      "Romain BASTIEN": 0.22027777777777777
+    },
+    "project_name": "GENLOG - Maintenance forfaitaire",
+    "entries_count": 1,
+    "entries": [
+      {
+        "date": "2025-07-18",
+        "description": "GENLOG - Inventaire Kemp 4.100",
+        "minutes": 13.216666666666667,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      }
+    ]
+  },
+  "Projet migration 365": {
+    "total_hours": 0.2227777777777778,
+    "tasks": {
+      "Prestations générales": 0.2227777777777778
+    },
+    "users": {
+      "Romain BASTIEN": 0.2227777777777778
+    },
+    "project_name": "Projet migration 365",
+    "entries_count": 1,
+    "entries": [
+      {
+        "date": "2025-07-16",
+        "description": "JARDINIERS SAP - Détails licences",
+        "minutes": 13.366666666666667,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      }
+    ]
+  },
+  "GARAGE TOUSEAU - Maintenance hors forfait": {
+    "total_hours": 0.5002777777777777,
+    "tasks": {
+      "Prestations générales": 0.5002777777777777
+    },
+    "users": {
+      "Romain BASTIEN": 0.5002777777777777
+    },
+    "project_name": "GARAGE TOUSEAU - Maintenance hors forfait",
+    "entries_count": 1,
+    "entries": [
+      {
+        "date": "2025-07-15",
+        "description": "TOUZEAU - Disque C: plein sur le Grand",
+        "minutes": 30.016666666666666,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      }
+    ]
+  },
+  "AIXAGON": {
+    "total_hours": 1.3805555555555558,
+    "tasks": {
+      "Prestations générales": 1.3805555555555558
+    },
+    "users": {
+      "Romain BASTIEN": 1.3805555555555558
+    },
+    "project_name": "AIXAGON - Maintenance hors forfait",
+    "entries_count": 3,
+    "entries": [
+      {
+        "date": "2025-07-04",
+        "description": "AIXAGON - Réunion Clinique",
+        "minutes": 30.1,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-01",
+        "description": "AIXAGON - Réunion ID Logistics",
+        "minutes": 17.266666666666666,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      },
+      {
+        "date": "2025-07-01",
+        "description": "AIXAGON - Préparation réunion ID Logistics",
+        "minutes": 35.46666666666667,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      }
+    ]
+  },
+  "AXION - Maintenance hors forfait": {
+    "total_hours": 0.7727777777777778,
+    "tasks": {
+      "Prestations générales": 0.7727777777777778
+    },
+    "users": {
+      "Romain BASTIEN": 0.7727777777777778
+    },
+    "project_name": "AXION - Maintenance hors forfait",
+    "entries_count": 1,
+    "entries": [
+      {
+        "date": "2025-07-01",
+        "description": "AXION - Nathanael - Problème partages Teams externes",
+        "minutes": 46.36666666666667,
+        "user": "Romain BASTIEN",
+        "task": "General"
+      }
+    ]
+  }
+}

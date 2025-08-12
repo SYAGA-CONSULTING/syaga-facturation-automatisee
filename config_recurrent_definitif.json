@@ -1,0 +1,56 @@
+{
+  "LAA": {
+    "forfait": 1400.0,
+    "frequence": "mensuel",
+    "jour": 1,
+    "description": "Forfait maintenance mensuel LAA"
+  },
+  "PHARMABEST": {
+    "forfait": 500.0,
+    "frequence": "mensuel",
+    "jour": 1,
+    "description": "Forfait maintenance mensuel Pharmabest"
+  },
+  "BUQUET": {
+    "forfait": 500.0,
+    "frequence": "mensuel",
+    "jour": 1,
+    "description": "Forfait maintenance mensuel Buquet"
+  },
+  "PETRAS": {
+    "forfait": 600.0,
+    "frequence": "mensuel",
+    "jour": 1,
+    "description": "Forfait maintenance mensuel Petras"
+  },
+  "PROVENCALE": {
+    "forfait": 400.0,
+    "frequence": "mensuel",
+    "jour": 1,
+    "description": "Forfait maintenance mensuel Provençale"
+  },
+  "SEXTANT": {
+    "forfait": 400.0,
+    "frequence": "mensuel",
+    "jour": 1,
+    "description": "Forfait conseil mensuel Sextant"
+  },
+  "QUADRIMEX": {
+    "forfait": 250.0,
+    "frequence": "mensuel",
+    "jour": 1,
+    "description": "Forfait support mensuel Quadrimex"
+  },
+  "GENLOG": {
+    "forfait": 100.0,
+    "frequence": "mensuel",
+    "jour": 1,
+    "description": "Forfait maintenance mensuel Genlog"
+  },
+  "BELFONTE": {
+    "forfait": 751.6,
+    "frequence": "trimestriel",
+    "jour": 1,
+    "description": "Forfait conseil trimestriel Belfonte"
+  }
+}

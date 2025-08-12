@@ -1,0 +1,20 @@
+Clockify Time Report
+
+Workspace:,Sebastien Questier's workspace
+Client:,PharmaBest
+Period:,July 2025
+Generated:,2025-08-12 13:57
+
+Project,Client,Description,Task,User,Email,Tags,Billable,Start Date,Start Time,End Date,End Time,Duration (h),Duration (decimal),Billable Rate (EUR),Billable Amount (EUR)
+PHARMABEST - SharePoint,PharmaBest,Configuration sites SharePoint Online,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-01,09:00:00,2025-07-01,16:00:00,07:00:00,7.00,110.00,770.00
+PHARMABEST - SharePoint,PharmaBest,Migration massive documents,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-03,09:00:00,2025-07-03,14:00:00,05:00:00,5.00,110.00,550.00
+PHARMABEST - M365,PharmaBest,Configuration Microsoft Teams,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-08,09:00:00,2025-07-08,15:00:00,06:00:00,6.00,110.00,660.00
+PHARMABEST - M365,PharmaBest,Déploiement Exchange Online,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-10,09:00:00,2025-07-10,17:00:00,08:00:00,8.00,110.00,880.00
+PHARMABEST - SharePoint,PharmaBest,Création workflows Power Automate,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-15,09:00:00,2025-07-15,16:00:00,07:00:00,7.00,110.00,770.00
+PHARMABEST - Support,PharmaBest,Formation utilisateurs clés,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-17,09:00:00,2025-07-17,13:00:00,04:00:00,4.00,110.00,440.00
+PHARMABEST - M365,PharmaBest,Configuration sécurité et conformité,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-22,09:00:00,2025-07-22,15:00:00,06:00:00,6.00,110.00,660.00
+PHARMABEST - SharePoint,PharmaBest,Optimisation performances sites,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-24,09:00:00,2025-07-24,14:00:00,05:00:00,5.00,110.00,550.00
+PHARMABEST - Support,PharmaBest,Support post-déploiement,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-29,09:00:00,2025-07-29,12:00:00,03:00:00,3.00,110.00,330.00
+PHARMABEST - M365,PharmaBest,Audit sécurité finale,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-31,09:00:00,2025-07-31,13:00:00,04:00:00,4.00,110.00,440.00
+
+,,,,,,,TOTAL:,,,,,55:00:00,55.00,,6050.00

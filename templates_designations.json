@@ -1,0 +1,147 @@
+{
+  "LAA": {
+    "standard": "Maintenance et support informatique",
+    "details": [
+      "Administration systèmes et réseaux",
+      "Support utilisateurs",
+      "Maintenance infrastructure",
+      "Gestion sécurité IT"
+    ],
+    "prix_horaire": 125.0,
+    "forfait_mensuel": 1562.5
+  },
+  "UAI": {
+    "standard": "Optimisation système et développement",
+    "details": [
+      "Optimisation SQL Server X3",
+      "Développement spécifique",
+      "Support technique avancé",
+      "Formation utilisateurs"
+    ],
+    "prix_horaire": 150.0,
+    "forfait_mensuel": 6162.5
+  },
+  "PHARMABEST": {
+    "standard": "Gestion Microsoft 365 et SharePoint",
+    "details": [
+      "Administration Office 365",
+      "Gestion SharePoint",
+      "Support utilisateurs M365",
+      "Configuration sécurité"
+    ],
+    "prix_horaire": 125.0,
+    "forfait_mensuel": 2500.0
+  },
+  "LEFEBVRE": {
+    "standard": "Maintenance mensuelle cabinet",
+    "details": [
+      "Maintenance serveur",
+      "Sauvegarde données",
+      "Support bureautique",
+      "Gestion emails"
+    ],
+    "prix_horaire": 120.0,
+    "forfait_mensuel": 480.0
+  },
+  "PETRAS": {
+    "standard": "Support technique mensuel",
+    "details": [
+      "Assistance technique",
+      "Maintenance préventive",
+      "Support utilisateurs"
+    ],
+    "prix_horaire": 100.0,
+    "forfait_mensuel": 200.0
+  },
+  "QUADRIMEX": {
+    "standard": "Développement et intégration",
+    "details": [
+      "Développement spécifique",
+      "Intégration API",
+      "Optimisation processus",
+      "Formation technique"
+    ],
+    "prix_horaire": 150.0,
+    "forfait_mensuel": 1500.0
+  },
+  "AXION": {
+    "standard": "Prestations développement",
+    "details": [
+      "Développement logiciel",
+      "Maintenance applicative",
+      "Support technique"
+    ],
+    "prix_horaire": 140.0,
+    "forfait_mensuel": 700.0
+  },
+  "BUQUET": {
+    "standard": "Support RE2020 et infrastructure",
+    "details": [
+      "Migration RE2020",
+      "Support logiciel métier",
+      "Infrastructure IT"
+    ],
+    "prix_horaire": 135.0,
+    "forfait_mensuel": 2000.0
+  },
+  "LA PROVENCALE": {
+    "standard": "Conseil et gouvernance IT",
+    "details": [
+      "Conseil stratégique",
+      "Gouvernance IT",
+      "Audit sécurité",
+      "Plan de transformation"
+    ],
+    "prix_horaire": 200.0,
+    "forfait_mensuel": 5000.0
+  },
+  "PORT DE BOUC": {
+    "standard": "Support administration publique",
+    "details": [
+      "Support informatique mairie",
+      "Maintenance infrastructure",
+      "Assistance utilisateurs"
+    ],
+    "prix_horaire": 100.0,
+    "forfait_mensuel": 400.0
+  },
+  "GARAGE TOUZEAU": {
+    "standard": "Maintenance informatique garage",
+    "details": [
+      "Support logiciel garage",
+      "Maintenance PC",
+      "Sauvegarde données"
+    ],
+    "prix_horaire": 75.0,
+    "forfait_mensuel": 150.0
+  },
+  "ART INFORMATIQUE": {
+    "standard": "Support technique partenaire",
+    "details": [
+      "Support technique",
+      "Assistance projet",
+      "Développement conjoint"
+    ],
+    "prix_horaire": 100.0,
+    "forfait_mensuel": 200.0
+  },
+  "FARBOS": {
+    "standard": "Maintenance mensuelle",
+    "details": [
+      "Support informatique",
+      "Maintenance préventive"
+    ],
+    "prix_horaire": 75.0,
+    "forfait_mensuel": 150.0
+  },
+  "LAA MAROC": {
+    "standard": "Support à distance Maroc",
+    "details": [
+      "Support remote",
+      "Assistance technique",
+      "Coordination projets"
+    ],
+    "prix_horaire": 75.0,
+    "forfait_mensuel": 150.0
+  }
+}

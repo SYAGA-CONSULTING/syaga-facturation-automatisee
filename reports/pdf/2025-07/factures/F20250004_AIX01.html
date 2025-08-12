@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Facture F20250004</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .header { border-bottom: 3px solid #333; padding-bottom: 20px; margin-bottom: 30px; }
+        .logo { font-size: 24pt; font-weight: bold; color: #667eea; }
+        .invoice-number { color: #e74c3c; font-weight: bold; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin: 20px 0; }
+        .section { background: #f8f9fa; padding: 15px; border-radius: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th { background: #e9ecef; padding: 10px; text-align: left; }
+        td { padding: 10px; border: 1px solid #dee2e6; }
+        .total-section { background: #e8f4f8; padding: 15px; margin-top: 20px; border: 2px solid #3498db; }
+        .total-line { margin: 5px 0; }
+        .total-final { font-size: 14pt; font-weight: bold; border-top: 2px solid #3498db; padding-top: 10px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">SYAGA CONSULTING</div>
+        <h1>FACTURE <span class="invoice-number">F20250004</span></h1>
+        <p>Date : 31/07/2025</p>
+    </div>
+    
+    <div class="grid">
+        <div class="section">
+            <h3>ÉMETTEUR</h3>
+            <strong>SYAGA CONSULTING</strong><br>
+            Sébastien QUESTIER<br>
+            [Adresse à compléter]<br>
+            SIRET : [À compléter]
+        </div>
+        <div class="section">
+            <h3>CLIENT</h3>
+            <strong>AIXAGON</strong><br>
+            Code OXYGEN : <strong>AIX01</strong><br>
+            5 Montée de Baume<br>13124 PEYPIN
+        </div>
+    </div>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Désignation</th>
+                <th>Quantité</th>
+                <th>Prix Unit. HT</th>
+                <th>Total HT</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Prestations informatiques - Juillet 2025</td>
+                <td>4,00 heures</td>
+                <td>100,00 €</td>
+                <td>400,00 €</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div class="total-section">
+        <div class="total-line">Total HT : <strong>400,00 €</strong></div>
+        <div class="total-line">TVA 20% : <strong>80.00 €</strong></div>
+        <div class="total-line total-final">TOTAL TTC : <strong>480.00 €</strong></div>
+    </div>
+    
+    <p style="margin-top: 30px;">
+        <strong>Conditions :</strong> Paiement à 30 jours par virement<br>
+        
+    </p>
+</body>
+</html>
+    

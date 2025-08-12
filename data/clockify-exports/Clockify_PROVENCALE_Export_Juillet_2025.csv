@@ -1,0 +1,19 @@
+Clockify Time Report
+
+Workspace:,Sebastien Questier's workspace
+Client:,La Provençale SA
+Period:,July 2025
+Generated:,2025-08-12 13:57
+
+Project,Client,Description,Task,User,Email,Tags,Billable,Start Date,Start Time,End Date,End Time,Duration (h),Duration (decimal),Billable Rate (EUR),Billable Amount (EUR)
+PROVENCALE - ERP,La Provençale SA,Analyse détaillée besoins ERP,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-02,09:00:00,2025-07-02,17:00:00,08:00:00,8.00,110.00,880.00
+PROVENCALE - ERP,La Provençale SA,Configuration modules comptables,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-05,09:00:00,2025-07-05,15:00:00,06:00:00,6.00,110.00,660.00
+PROVENCALE - BI,La Provençale SA,Création tableaux de bord Power BI,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-09,09:00:00,2025-07-09,16:00:00,07:00:00,7.00,110.00,770.00
+PROVENCALE - ERP,La Provençale SA,Import données historiques,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-12,09:00:00,2025-07-12,14:00:00,05:00:00,5.00,110.00,550.00
+PROVENCALE - BI,La Provençale SA,Développement rapports analytiques,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-16,09:00:00,2025-07-16,15:00:00,06:00:00,6.00,110.00,660.00
+PROVENCALE - Support,La Provençale SA,Formation utilisateurs clés,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-19,09:00:00,2025-07-19,13:00:00,04:00:00,4.00,110.00,440.00
+PROVENCALE - ERP,La Provençale SA,Tests intégration complète,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-23,09:00:00,2025-07-23,16:00:00,07:00:00,7.00,110.00,770.00
+PROVENCALE - BI,La Provençale SA,Dashboard direction générale,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-26,09:00:00,2025-07-26,14:00:00,05:00:00,5.00,110.00,550.00
+PROVENCALE - Support,La Provençale SA,Documentation et transfert,,Sebastien Questier,sebastien.questier@syaga.fr,,Yes,2025-07-30,09:00:00,2025-07-30,13:00:00,04:00:00,4.00,110.00,440.00
+
+,,,,,,,TOTAL:,,,,,52:00:00,52.00,,5720.00
