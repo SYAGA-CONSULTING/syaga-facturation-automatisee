@@ -7,7 +7,7 @@ import sys
 import os
 sys.path.append('/home/sq/SYAGA-CONSULTING/syaga-instructions')
 
-from SEND_EMAIL_CURRENT import send_email
+from SEND_EMAIL_SECURE import send_email
 
 # Contenu HTML du récapitulatif
 html_content = """

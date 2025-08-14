@@ -5,7 +5,7 @@ Envoi de TOUTES les factures en mode TEXTE avec codes OXYGEN corrects
 
 import sys
 sys.path.append('/home/sq/SYAGA-CONSULTING/syaga-instructions')
-from SEND_EMAIL_CURRENT import send_email
+from SEND_EMAIL_SECURE import send_email
 
 # Créer le contenu texte de chaque facture
 html_content = """

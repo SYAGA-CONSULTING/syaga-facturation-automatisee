@@ -8,7 +8,7 @@ import os
 from datetime import datetime
 
 sys.path.append('/home/sq/SYAGA-CONSULTING/syaga-instructions')
-from SEND_EMAIL_CURRENT import send_email
+from SEND_EMAIL_SECURE import send_email
 
 from reportlab.lib.pagesizes import A4
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle

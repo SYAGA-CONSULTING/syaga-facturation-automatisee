@@ -9,7 +9,7 @@ import json
 from datetime import datetime
 
 sys.path.append('/home/sq/SYAGA-CONSULTING/syaga-instructions')
-from SEND_EMAIL_CURRENT import send_email
+from SEND_EMAIL_SECURE import send_email
 
 # Import des générateurs existants
 sys.path.append('/home/sq/SYAGA-CONSULTING/syaga-finance-api/facturation-automatisee/scripts')

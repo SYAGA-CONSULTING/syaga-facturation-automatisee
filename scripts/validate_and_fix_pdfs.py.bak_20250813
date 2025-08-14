@@ -12,7 +12,7 @@ import glob
 from datetime import datetime
 
 sys.path.append('/home/sq/SYAGA-CONSULTING/syaga-instructions')
-from SEND_EMAIL_CURRENT import send_email
+from SEND_EMAIL_SECURE import send_email
 
 def validate_pdf_content(pdf_path):
     """Valide qu'un PDF contient du contenu réel"""

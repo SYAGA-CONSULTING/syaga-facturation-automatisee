@@ -8,7 +8,7 @@ import os
 sys.path.append('/home/sq/SYAGA-CONSULTING/syaga-instructions')
 
 from SYAGA_PDF_V3_3_TECHNICAL import SyagaPDFV33Technical
-from SEND_EMAIL_CURRENT import send_email
+from SEND_EMAIL_SECURE import send_email
 from datetime import datetime
 
 def create_clockify_sections(client, hours_data):

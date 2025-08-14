@@ -11,7 +11,7 @@ sys.path.append('/home/sq/SYAGA-CONSULTING/syaga-instructions')
 from SYAGA_PDF_V3_3_TECHNICAL import generate_and_send_technical_pdf
 
 # Importer le module d'envoi email
-from SEND_EMAIL_CURRENT import send_email
+from SEND_EMAIL_SECURE import send_email
 
 from datetime import datetime
 import json

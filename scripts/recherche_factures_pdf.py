@@ -62,10 +62,11 @@ def get_emails_with_attachments():
     # Rechercher les emails envoyés avec pièces jointes
     url = f"https://graph.microsoft.com/v1.0/users/{USER_EMAIL}/mailFolders/sentitems/messages"
     
-    # Paramètres simples
+    # Paramètres étendus pour inclure les pièces jointes
     params_dict = {
         '$top': '500',
         '$select': 'subject,toRecipients,sentDateTime,hasAttachments',
+        '$expand': 'attachments',
         '$orderby': 'sentDateTime desc'
     }
     

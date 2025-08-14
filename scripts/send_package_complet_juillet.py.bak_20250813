@@ -5,7 +5,7 @@ Envoi du package complet Juillet 2025 avec mockups factures
 
 import sys
 sys.path.append('/home/sq/SYAGA-CONSULTING/syaga-instructions')
-from SEND_EMAIL_CURRENT import send_email
+from SEND_EMAIL_SECURE import send_email
 
 # Créer le contenu avec mockups des factures
 html_content = """

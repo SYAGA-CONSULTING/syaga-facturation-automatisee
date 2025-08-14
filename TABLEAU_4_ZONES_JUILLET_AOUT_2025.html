@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facturation Juillet-Août 2025 - 4 Catégories</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: #ffffff;
+            padding: 10px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #333;
+            color: #000;
+        }
+        
+        .info-bar {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding: 10px;
+            background: #f5f5f5;
+            border: 1px solid #ddd;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 13px;
+        }
+        
+        thead {
+            background: #333;
+            color: white;
+        }
+        
+        th {
+            padding: 10px;
+            text-align: left;
+            font-weight: normal;
+            border: 1px solid #333;
+        }
+        
+        td {
+            padding: 8px;
+            border: 1px solid #ddd;
+            vertical-align: top;
+        }
+        
+        /* ZONE 1 : VERT - Maintenance Forfaitaire Mensuelle */
+        .zone-maint-forfait {
+            background-color: #e8f5e9;
+        }
+        
+        /* ZONE 2 : JAUNE - Prestation Forfaitaire */
+        .zone-prestation-forfait {
+            background-color: #fff3e0;
+        }
+        
+        /* ZONE 3 : ORANGE - Hors Forfait */
+        .zone-hors-forfait {
+            background-color: #ffe0b2;
+        }
+        
+        /* ZONE 4 : ROSE - Prestations Ponctuelles */
+        .zone-ponctuel {
+            background-color: #fce4ec;
+        }
+        
+        .zone-header {
+            background: #666;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            font-size: 14px;
+        }
+        
+        .numero {
+            font-weight: bold;
+            font-family: monospace;
+        }
+        
+        .reference {
+            font-family: monospace;
+            font-weight: bold;
+            background: rgba(255,255,255,0.5);
+            padding: 2px 4px;
+        }
+        
+        .montant {
+            text-align: right;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+        
+        .subtotal {
+            font-weight: bold;
+            background: rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>FACTURATION JUILLET-AOÛT 2025 - SYAGA CONSULTING</h1>
+        
+        <div class="info-bar">
+            <div><strong>Période:</strong> Juillet-Août 2025</div>
+            <div><strong>Total analysé:</strong> 38 555€ HT</div>
+            <div><strong>Date:</strong> 13/08/2025</div>
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th width="8%">N° Facture</th>
+                    <th width="7%">Date</th>
+                    <th width="12%">Client</th>
+                    <th width="10%">Référence</th>
+                    <th width="35%">Désignation</th>
+                    <th width="5%">Qté</th>
+                    <th width="6%">PU HT</th>
+                    <th width="7%">Total HT</th>
+                    <th width="10%">Mois</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- ============ ZONE 1 : MAINTENANCE FORFAITAIRE MENSUELLE (VERT) ============ -->
+                <tr>
+                    <td colspan="9" class="zone-header">🟢 MAINTENANCE FORFAITAIRE MENSUELLE - MAINT-FORF-M</td>
+                </tr>
+                
+                <!-- JUILLET -->
+                <tr class="zone-maint-forfait">
+                    <td class="numero">F20250701</td>
+                    <td>01/07/2025</td>
+                    <td>PROVENÇALE SA</td>
+                    <td><span class="reference">MAINT-FORF-M</span></td>
+                    <td>Maintenance forfaitaire mensuelle - Ingénierie réseau préventive</td>
+                    <td align="center">1</td>
+                    <td align="right">400€</td>
+                    <td class="montant">400€</td>
+                    <td>Juillet</td>
+                </tr>
+                <tr class="zone-maint-forfait">
+                    <td class="numero">F20250702</td>
+                    <td>01/07/2025</td>
+                    <td>GUERBET</td>
+                    <td><span class="reference">MAINT-FORF-M</span></td>
+                    <td>Maintenance forfaitaire mensuelle - Infrastructure médicale</td>
+                    <td align="center">1</td>
+                    <td align="right">3 000€</td>
+                    <td class="montant">3 000€</td>
+                    <td>Juillet</td>
+                </tr>
+                <tr class="zone-maint-forfait">
+                    <td class="numero">F20250703</td>
+                    <td>01/07/2025</td>
+                    <td>PHARMABEST</td>
+                    <td><span class="reference">MAINT-FORF-M</span></td>
+                    <td>Maintenance forfaitaire mensuelle - SharePoint et M365</td>
+                    <td align="center">1</td>
+                    <td align="right">2 500€</td>
+                    <td class="montant">2 500€</td>
+                    <td>Juillet</td>
+                </tr>
+                <tr class="zone-maint-forfait">
+                    <td class="numero">F20250704</td>
+                    <td>01/07/2025</td>
+                    <td>BUQUET SAS</td>
+                    <td><span class="reference">MAINT-FORF-M</span></td>
+                    <td>Maintenance forfaitaire mensuelle - Conformité RE2020</td>
+                    <td align="center">1</td>
+                    <td align="right">2 000€</td>
+                    <td class="montant">2 000€</td>
+                    <td>Juillet</td>
+                </tr>
+                <tr class="zone-maint-forfait">
+                    <td class="numero">F20250705</td>
+                    <td>01/07/2025</td>
+                    <td>LAA</td>
+                    <td><span class="reference">MAINT-FORF-M</span></td>
+                    <td>Maintenance forfaitaire mensuelle - Infrastructure GPU/RDS</td>
+                    <td align="center">1</td>
+                    <td align="right">1 500€</td>
+                    <td class="montant">1 500€</td>
+                    <td>Juillet</td>
+                </tr>
+                
+                <!-- AOÛT -->
+                <tr class="zone-maint-forfait">
+                    <td class="numero">F20250801</td>
+                    <td>01/08/2025</td>
+                    <td>PROVENÇALE SA</td>
+                    <td><span class="reference">MAINT-FORF-M</span></td>
+                    <td>Maintenance forfaitaire mensuelle - Ingénierie réseau préventive</td>
+                    <td align="center">1</td>
+                    <td align="right">400€</td>
+                    <td class="montant">400€</td>
+                    <td>Août</td>
+                </tr>
+                <tr class="zone-maint-forfait">
+                    <td class="numero">F20250802</td>
+                    <td>01/08/2025</td>
+                    <td>GUERBET</td>
+                    <td><span class="reference">MAINT-FORF-M</span></td>
+                    <td>Maintenance forfaitaire mensuelle - Infrastructure médicale</td>
+                    <td align="center">1</td>
+                    <td align="right">3 000€</td>
+                    <td class="montant">3 000€</td>
+                    <td>Août</td>
+                </tr>
+                <tr class="zone-maint-forfait">
+                    <td class="numero">F20250803</td>
+                    <td>01/08/2025</td>
+                    <td>PHARMABEST</td>
+                    <td><span class="reference">MAINT-FORF-M</span></td>
+                    <td>Maintenance forfaitaire mensuelle - SharePoint et M365</td>
+                    <td align="center">1</td>
+                    <td align="right">2 500€</td>
+                    <td class="montant">2 500€</td>
+                    <td>Août</td>
+                </tr>
+                <tr class="zone-maint-forfait">
+                    <td class="numero">F20250804</td>
+                    <td>01/08/2025</td>
+                    <td>BUQUET SAS</td>
+                    <td><span class="reference">MAINT-FORF-M</span></td>
+                    <td>Maintenance forfaitaire mensuelle - Conformité RE2020</td>
+                    <td align="center">1</td>
+                    <td align="right">2 000€</td>
+                    <td class="montant">2 000€</td>
+                    <td>Août</td>
+                </tr>
+                <tr class="zone-maint-forfait">
+                    <td class="numero">F20250805</td>
+                    <td>01/08/2025</td>
+                    <td>LAA</td>
+                    <td><span class="reference">MAINT-FORF-M</span></td>
+                    <td>Maintenance forfaitaire mensuelle - Infrastructure GPU/RDS</td>
+                    <td align="center">1</td>
+                    <td align="right">1 500€</td>
+                    <td class="montant">1 500€</td>
+                    <td>Août</td>
+                </tr>
+                <tr class="zone-maint-forfait">
+                    <td class="numero">F20250806</td>
+                    <td>01/08/2025</td>
+                    <td>AIXAGON</td>
+                    <td><span class="reference">MAINT-FORF-M</span></td>
+                    <td>Maintenance forfaitaire mensuelle - Support technique</td>
+                    <td align="center">1</td>
+                    <td align="right">750€</td>
+                    <td class="montant">750€</td>
+                    <td>Août</td>
+                </tr>
+                <tr class="zone-maint-forfait">
+                    <td class="numero">F20250807</td>
+                    <td>01/08/2025</td>
+                    <td>QUADRIMEX</td>
+                    <td><span class="reference">MAINT-FORF-M</span></td>
+                    <td>Maintenance forfaitaire mensuelle - SQL Server</td>
+                    <td align="center">1</td>
+                    <td align="right">250€</td>
+                    <td class="montant">250€</td>
+                    <td>Août</td>
+                </tr>
+                <tr class="zone-maint-forfait">
+                    <td class="numero">F20250808</td>
+                    <td>01/08/2025</td>
+                    <td>SEXTANT</td>
+                    <td><span class="reference">MAINT-FORF-M</span></td>
+                    <td>Maintenance forfaitaire mensuelle - Armoire informatique</td>
+                    <td align="center">1</td>
+                    <td align="right">400€</td>
+                    <td class="montant">400€</td>
+                    <td>Août</td>
+                </tr>
+                <tr class="zone-maint-forfait">
+                    <td class="numero">F20250809</td>
+                    <td>01/08/2025</td>
+                    <td>SEMARDEL</td>
+                    <td><span class="reference">MAINT-FORF-M</span></td>
+                    <td>Maintenance forfaitaire mensuelle - Support systèmes</td>
+                    <td align="center">1</td>
+                    <td align="right">500€</td>
+                    <td class="montant">500€</td>
+                    <td>Août</td>
+                </tr>
+                
+                <tr class="zone-maint-forfait subtotal">
+                    <td colspan="7" align="right"><strong>SOUS-TOTAL MAINTENANCE FORFAITAIRE MENSUELLE</strong></td>
+                    <td class="montant"><strong>21 800€</strong></td>
+                    <td></td>
+                </tr>
+                
+                <!-- ============ ZONE 2 : PRESTATION FORFAITAIRE (JAUNE) ============ -->
+                <tr>
+                    <td colspan="9" class="zone-header">🟡 PRESTATION FORFAITAIRE - PRES-FORF-J</td>
+                </tr>
+                
+                <tr class="zone-prestation-forfait">
+                    <td class="numero">F20250737</td>
+                    <td>31/07/2025</td>
+                    <td>UN AIR D'ICI</td>
+                    <td><span class="reference">PRES-FORF-J</span></td>
+                    <td>Audit sécurité Active Directory - Phase 1 HardenAD</td>
+                    <td align="center">5.5</td>
+                    <td align="right">850€</td>
+                    <td class="montant">4 675€</td>
+                    <td>Juillet</td>
+                </tr>
+                
+                <tr class="zone-prestation-forfait">
+                    <td class="numero">F20250738</td>
+                    <td>31/07/2025</td>
+                    <td>UN AIR D'ICI</td>
+                    <td><span class="reference">PRES-FORF-J</span></td>
+                    <td>Optimisation performances SQL Server - Debug requêtes X3</td>
+                    <td align="center">9</td>
+                    <td align="right">850€</td>
+                    <td class="montant">7 650€</td>
+                    <td>Juillet</td>
+                </tr>
+                
+                <tr class="zone-prestation-forfait subtotal">
+                    <td colspan="7" align="right"><strong>SOUS-TOTAL PRESTATION FORFAITAIRE</strong></td>
+                    <td class="montant"><strong>12 325€</strong></td>
+                    <td></td>
+                </tr>
+                
+                <!-- ============ ZONE 3 : HORS FORFAIT (ORANGE) ============ -->
+                <tr>
+                    <td colspan="9" class="zone-header">🟠 HORS FORFAIT - PREST-ING-H (Clients avec contrat)</td>
+                </tr>
+                
+                <tr class="zone-hors-forfait">
+                    <td class="numero">F20250730</td>
+                    <td>31/07/2025</td>
+                    <td>LAA</td>
+                    <td><span class="reference">PREST-ING-H</span></td>
+                    <td>Heures hors forfait juillet - Migration SAGE V12</td>
+                    <td align="center">18</td>
+                    <td align="right">100€</td>
+                    <td class="montant">1 800€</td>
+                    <td>Juillet</td>
+                </tr>
+                
+                <tr class="zone-hors-forfait subtotal">
+                    <td colspan="7" align="right"><strong>SOUS-TOTAL HORS FORFAIT</strong></td>
+                    <td class="montant"><strong>1 800€</strong></td>
+                    <td></td>
+                </tr>
+                
+                <!-- ============ ZONE 4 : PRESTATIONS PONCTUELLES (ROSE) ============ -->
+                <tr>
+                    <td colspan="9" class="zone-header">🌸 PRESTATIONS PONCTUELLES - PREST-ING-H (Clients sans contrat)</td>
+                </tr>
+                
+                <tr class="zone-ponctuel">
+                    <td class="numero">F20250731</td>
+                    <td>31/07/2025</td>
+                    <td>AXION</td>
+                    <td><span class="reference">PREST-ING-H</span></td>
+                    <td>Support infrastructure réseau</td>
+                    <td align="center">7</td>
+                    <td align="right">100€</td>
+                    <td class="montant">700€</td>
+                    <td>Juillet</td>
+                </tr>
+                
+                <tr class="zone-ponctuel">
+                    <td class="numero">F20250732</td>
+                    <td>31/07/2025</td>
+                    <td>LEFEBVRE</td>
+                    <td><span class="reference">PREST-ING-H</span></td>
+                    <td>Assistance juridique informatique</td>
+                    <td align="center">4</td>
+                    <td align="right">120€</td>
+                    <td class="montant">480€</td>
+                    <td>Juillet</td>
+                </tr>
+                
+                <tr class="zone-ponctuel">
+                    <td class="numero">F20250733</td>
+                    <td>31/07/2025</td>
+                    <td>PETRAS</td>
+                    <td><span class="reference">PREST-ING-H</span></td>
+                    <td>Support utilisateurs</td>
+                    <td align="center">2</td>
+                    <td align="right">100€</td>
+                    <td class="montant">200€</td>
+                    <td>Juillet</td>
+                </tr>
+                
+                <tr class="zone-ponctuel">
+                    <td class="numero">F20250734</td>
+                    <td>31/07/2025</td>
+                    <td>TOUZEAU</td>
+                    <td><span class="reference">PREST-ING-H</span></td>
+                    <td>Maintenance informatique garage</td>
+                    <td align="center">1.5</td>
+                    <td align="right">100€</td>
+                    <td class="montant">150€</td>
+                    <td>Juillet</td>
+                </tr>
+                
+                <tr class="zone-ponctuel">
+                    <td class="numero">F20250735</td>
+                    <td>31/07/2025</td>
+                    <td>ART INFO</td>
+                    <td><span class="reference">PREST-ING-H</span></td>
+                    <td>Maintenance système</td>
+                    <td align="center">2</td>
+                    <td align="right">100€</td>
+                    <td class="montant">200€</td>
+                    <td>Juillet</td>
+                </tr>
+                
+                <tr class="zone-ponctuel">
+                    <td class="numero">F20250736</td>
+                    <td>31/07/2025</td>
+                    <td>FARBOS</td>
+                    <td><span class="reference">PREST-ING-H</span></td>
+                    <td>Support technique</td>
+                    <td align="center">1.5</td>
+                    <td align="right">100€</td>
+                    <td class="montant">150€</td>
+                    <td>Juillet</td>
+                </tr>
+                
+                <tr class="zone-ponctuel">
+                    <td class="numero">F20250810</td>
+                    <td>05/08/2025</td>
+                    <td>LEFEBVRE</td>
+                    <td><span class="reference">PREST-ING-H</span></td>
+                    <td>Support juridique IT et sécurité données</td>
+                    <td align="center">5</td>
+                    <td align="right">120€</td>
+                    <td class="montant">600€</td>
+                    <td>Août</td>
+                </tr>
+                
+                <tr class="zone-ponctuel subtotal">
+                    <td colspan="7" align="right"><strong>SOUS-TOTAL PRESTATIONS PONCTUELLES</strong></td>
+                    <td class="montant"><strong>2 630€</strong></td>
+                    <td></td>
+                </tr>
+                
+                <!-- TOTAL GÉNÉRAL -->
+                <tr style="background: #333; color: white; font-weight: bold;">
+                    <td colspan="7" align="right">TOTAL GÉNÉRAL HT</td>
+                    <td class="montant">38 555€</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
